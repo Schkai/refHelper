@@ -1,3 +1,4 @@
+import { InAppBrowser, InAppBrowserOptions } from '@ionic-native/in-app-browser';
 import { Pharmacy } from './../pharmacy/pharmacy';
 import { EmergencyPharmacy } from './../emergency-pharmacy/emergency-pharmacy';
 import { Component } from '@angular/core';
@@ -16,7 +17,9 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class PharmacyPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  url: string;
+
+  constructor(public navCtrl: NavController, public navParams: NavParams, private inAppBrowser: InAppBrowser) {
   }
 
   ionViewDidLoad() {
@@ -28,7 +31,11 @@ export class PharmacyPage {
   }
 
   openEmergencyPharmacy(){
-    this.navCtrl.push(EmergencyPharmacy);
+    const options: InAppBrowserOptions = {
+      zoom: "no"
+    }
+    this.url = "https://m.aponet.de/notdienstsuche/93047.html";
+    const browser = this.inAppBrowser.create(this.url, "_self", options);
   }
 
 }

@@ -1,3 +1,4 @@
+import { InAppBrowser, InAppBrowserOptions } from '@ionic-native/in-app-browser';
 import { JSONService } from './../../providers/json-service';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
@@ -5,12 +6,6 @@ import { TransportBus } from '../transport-bus/transport-bus';
 import { TransportTaxi } from '../transport-taxi/transport-taxi';
 import { TransportTrain } from '../transport-train/transport-train';
 
-/**
- * Generated class for the SomethingElse page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
 @IonicPage()
 @Component({
   selector: 'page-something-else',
@@ -20,8 +15,8 @@ import { TransportTrain } from '../transport-train/transport-train';
 export class SomethingElse {
 
   public elseData: any;
-
-  constructor(public navCtrl: NavController, public navParams: NavParams, private JSONService: JSONService) {
+  url: string;
+  constructor(public navCtrl: NavController, public navParams: NavParams, private JSONService: JSONService, private inAppBrowser: InAppBrowser) {
     //this.getData();
   }
 
@@ -30,29 +25,27 @@ export class SomethingElse {
   }
 
   openBusPage() {
-    this.navCtrl.push(TransportBus);
+    const options: InAppBrowserOptions = {
+      zoom: "no"
+    }
+    this.url = "https://www.rvv.de";
+    const browser = this.inAppBrowser.create(this.url, "_self", options);
   }
 
   openTaxiPage() {
-    this.navCtrl.push(TransportTaxi);
+    const options: InAppBrowserOptions = {
+      zoom: "no"
+    }
+    this.url = "https://www.taxi.de/unternehmen/taxi-regensburg-eg/";
+    const browser = this.inAppBrowser.create(this.url, "_self", options);
+  }
+  
+  openTrainPage() {
+    const options: InAppBrowserOptions = {
+      zoom: "no"
+    }
+    this.url = "https://www.bahn.de";
+    const browser = this.inAppBrowser.create(this.url, "_self", options);
   }
 
-  openTrainPage() {
-    this.navCtrl.push(TransportTrain);
-  }
-  /*getData(){
-    this.JSONService.getJsonData('assets/data/shopping-centre.json').subscribe(
-      result => {
-        console.log(result);
-        this.elseData = result;
-      },
-      err =>{
-      console.error("Error : "+err);
-    },
-    () => {
-      console.log('getData completed')
-    }
-  );
-}
-*/
 }

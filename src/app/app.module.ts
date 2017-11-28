@@ -54,6 +54,7 @@ import { HttpModule, Http } from '@angular/http';
 import { JSONService } from "../providers/json-service";
 import { TransportTrain } from '../pages/transport-train/transport-train';
 import { LaunchNavigator } from '@ionic-native/launch-navigator';
+import { InAppBrowser } from '@ionic-native/in-app-browser';
 
 
 
@@ -164,6 +165,7 @@ export function createTranslateLoader(http: HttpClient) {
     SplashScreen,
     JSONService,
     LaunchNavigator,
+    InAppBrowser,
     // Keep this to enable Ionic's runtime error handling during development
     { provide: ErrorHandler, useClass: IonicErrorHandler }
   ]
