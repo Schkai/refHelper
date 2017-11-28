@@ -1,6 +1,7 @@
 import { JSONService } from './../../providers/json-service';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { LaunchNavigator } from '@ionic-native/launch-navigator';
 
 /**
  * Generated class for the Market page.
@@ -18,7 +19,7 @@ export class Market {
 
   public marktData: any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, private JSONService: JSONService) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private JSONService: JSONService, private launchNavigator: LaunchNavigator) {
     this.getData();
   }
 
@@ -39,6 +40,12 @@ export class Market {
       console.log('getData completed')
     }
   );
+}
+
+navigate(card){
+  let location = card.street + ", " + card.PLZ;
+  console.log(location);
+  this.launchNavigator.navigate(location);
 }
 
 }

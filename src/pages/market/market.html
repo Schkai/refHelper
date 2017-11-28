@@ -14,5 +14,26 @@
 
 
 <ion-content padding>
-
+  <ion-card *ngFor="let card of marktData" class="foodData">
+    
+          <img src={{card.image}}>
+  
+          <ion-item>
+              <h2>{{card.name}}</h2>
+              <p>{{card.street}}, {{card.PLZ}}</p>
+            </ion-item>
+          <ion-card-content>
+              <p>{{card.description}}</p>
+              <ion-item>
+                  <button item-right ion-button icon-left  item-end (click)="navigate(card)">
+                    <ion-icon name="navigate"></ion-icon>
+                    
+                  </button>
+                </ion-item>
+            
+          </ion-card-content>
+   
+   
+    </ion-card>
+  
 </ion-content>

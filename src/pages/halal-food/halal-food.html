@@ -15,42 +15,26 @@
 <ion-content padding>
 
 
-<ion-card *ngFor="let card of foodData" class="foodData">
-  <img data-src="{{card.image}}">
-
-<ion-grid>
-  <ion-row>
-    <ion-col col-6>
-      <p text-left>{{card.german_name}}</p>
-      <p text-left>{{card.german_address_line1}}</p>
-      <p text-left>{{card.german_address_line2}}</p>
-    </ion-col>
-    <ion-col col-6>
-      <p text-right class="arabic-name-bold">{{card.arabic_name}}</p>
-      <p text-right class="arabic-name-bold">{{card.arabic_address_line1}}</p>
-      <p text-right class="arabic-name-bold">{{card.arabic_address_line2}}</p>
-    </ion-col>
-  </ion-row>
-
-  <ion-row>
-    <ion-col col-6>
-      <p text-left>{{card.german_opening_hours}}</p>
-      <p text-left>{{card.german_time1}}</p>
-      <p text-left>{{card.german_time2}}</p>
-    </ion-col>
-    <ion-col col-6>
-      <p text-right>{{card.arabic_time1}}</p>
-      <p text-right>{{card.arabic_time2}}</p>
-    </ion-col>
-  </ion-row>
+  <ion-card *ngFor="let card of foodData" class="foodData">
+    
+          <img src={{card.image}}>
   
-</ion-grid>
-
-<hr>
-
-<button ion-button>Maps</button>
-
-</ion-card>
-
-
+          <ion-item>
+              <h2>{{card.name}}</h2>
+              <p>{{card.street}}, {{card.PLZ}}</p>
+            </ion-item>
+          <ion-card-content>
+              <p>{{card.description}}</p>
+              <ion-item>
+                  <button item-right ion-button icon-left  item-end (click)="navigate(card)">
+                    <ion-icon name="navigate"></ion-icon>
+                    
+                  </button>
+                </ion-item>
+            
+          </ion-card-content>
+   
+   
+    </ion-card>
+  
 </ion-content>
