@@ -1,3 +1,4 @@
+import { WomenSportsPage } from './../pages/women-sports/women-sports';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -101,7 +102,8 @@ export function createTranslateLoader(http: HttpClient) {
     Market,
     TransportTaxi,
     TransportBus,
-    TransportTrain
+    TransportTrain,
+    WomenSportsPage
   ],
   imports: [
     BrowserModule,
@@ -154,7 +156,8 @@ export function createTranslateLoader(http: HttpClient) {
     Market,
     TransportBus,
     TransportTrain,
-    TransportTaxi
+    TransportTaxi,
+    WomenSportsPage
   ],
   providers: [
     StatusBar,

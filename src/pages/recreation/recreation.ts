@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { WomenSportsPage } from '../women-sports/women-sports';
+import { Religion } from '../religion/religion';
 
 /**
  * Generated class for the Recreation page.
@@ -19,6 +21,14 @@ export class Recreation {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad Recreation');
+  }
+
+  openWomenSportsPage(){
+    this.navCtrl.push(WomenSportsPage);
+  }
+
+  openReligionPage() {
+    this.navCtrl.push(Religion);
   }
 
 }

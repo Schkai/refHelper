@@ -6,24 +6,24 @@ import { LaunchNavigator } from '@ionic-native/launch-navigator';
 
 @IonicPage()
 @Component({
-  selector: 'page-authorities',
-  templateUrl: 'authorities.html',
+  selector: 'page-women-sports',
+  templateUrl: 'women-sports.html',
 })
-export class Authorities {
-  public authorityData: any;
-  
+export class WomenSportsPage {
+
+  public womenSportsData: any;
   constructor(public navCtrl: NavController, public navParams: NavParams, private JSONService:JSONService, private launchNavigator: LaunchNavigator) {
   this.getData();
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad Authorities');
+    console.log('ionViewDidLoad WomenSportsPage');
   }
   getData(){
-    this.JSONService.getJsonData('assets/data/behoerde.json').subscribe(
+    this.JSONService.getJsonData('assets/data/womenSport.json').subscribe(
       result => {
         console.log(result);
-        this.authorityData = result;
+        this.womenSportsData = result;
       },
       err =>{
       console.error("Error : "+err);

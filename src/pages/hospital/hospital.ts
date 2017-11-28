@@ -1,12 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { JSONService } from './../../providers/json-service';
+import { LaunchNavigator } from '@ionic-native/launch-navigator';
 
-/**
- * Generated class for the Hospital page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
+
 @IonicPage()
 @Component({
   selector: 'page-hospital',
@@ -14,11 +11,32 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class Hospital {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  public hospitalData: any;
+  constructor(public navCtrl: NavController, public navParams: NavParams, private JSONService:JSONService, private launchNavigator: LaunchNavigator) {
+  this.getData();
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad Hospital');
   }
+  getData(){
+    this.JSONService.getJsonData('assets/data/krankenhaus.json').subscribe(
+      result => {
+        console.log(result);
+        this.hospitalData = result;
+      },
+      err =>{
+      console.error("Error : "+err);
+    },
+    () => {
+      console.log('getData completed')
+    }
+  );
+}
 
+navigate(card){
+  let location = card.street + ", " + card.PLZ;
+  console.log(location);
+  this.launchNavigator.navigate(location);
+}
 }

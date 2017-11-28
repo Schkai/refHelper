@@ -85,6 +85,30 @@
   "RECREATION_ENGLISH": "I want to do something recreational",
   "RELIGION_ENGLISH": "I want to practice religion" 
 
+},
+"RECREATION": {
+  "PARK": "I want to visit a park",
+   "PLAYGROUND": "I want to visit a playground",
+  "CHILDCARE_FACILITY":"Where are childcare facilities?",
+  "SPORTS": "I want to do sports",
+  "OFFERS_FOR_WOMEN": "Sport activities only for women",
+  "GYM": "I want to go to a gym",
+  "PARK_ENGLISH": "I want to visit a park", 
+  "PLAYGROUND_ENGLISH": "I want to visit a playground", 
+  "CHILDCARE_FACILITY_ENGLISH": "Where are childcare facilities?", 
+  "SPORTS_ENGLISH": "I want to do sports", 
+  "OFFERS_FOR_WOMEN_ENGLISH": "Sport activities only for women", 
+  "GYM_ENGLISH": "I want to go to a gym" 
+},
+"RELIGION": {
+  "CHRISTIAN": "I am looking for a christian church",
+  "MOSQUE": "I am looking for a mosque",
+  "SYNAGOGUE": "I am looking for a synagogue",
+  "BUDDHIST_TEMPLE": "I am looking for a buddhist temple",
+  "CHRISTIAN_ENGLISH": "I am looking for a christian church",
+  "MOSQUE_ENGLISH": "I am looking for a mosque", 
+  "SYNAGOGUE_ENGLISH": "I am looking for a synagogue", 
+  "BUDDHIST_TEMPLE_ENGLISH": "I am looking for a buddhist temple" 
 }
 
 
