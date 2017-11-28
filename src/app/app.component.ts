@@ -7,7 +7,6 @@ import { TranslateService } from '@ngx-translate/core';
 import { Config, Nav, Platform } from 'ionic-angular';
 
 import { Settings } from '../providers/providers';
-import { NeedPage } from '../pages/need-page/need-page';
 
 @Component({
   template: `<ion-menu [content]="content">
