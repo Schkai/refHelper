@@ -1,0 +1,49 @@
+[{
+    "ID": 1,
+    "name": "Supermarkt Nayir (halal)",
+    "lat": 49.017201,
+    "long": 12.120356,
+    "description": "",
+    "street": "Von-Donle-Straße 6",
+    "PLZ": 93055,
+    "Ort": "Regensburg",
+    "Telefon": "",
+    "E-Mail": null
+  },
+  {
+    "ID": 2,
+    "name": "Al Madina Markt",
+    "lat": 49.009506,
+    "long": 12.104464,
+    "description": "Geschäft für orientalische Waren (halal-zertifiziert)",
+    "street": "Furtmayerstraße 10",
+    "PLZ": 93053,
+    "Ort": "Regensburg",
+    "Telefon": "0941/38212795",
+    "E-Mail": null
+  },
+  {
+    "ID": 3,
+    "name": "Taracafé",
+    "lat": 49.017370,
+    "long": 12.099960,
+    "description": "Café für veganes, halales und koscheres Essen; Öffnungszeiten: Montag bis Samstag von 09:00 bis 21:00 Uhr",
+    "street": "Am Brixener Hof 5",
+    "PLZ": 93047,
+    "Ort": "Regensburg",
+    "Telefon": "0941/64635541",
+    "E-Mail": null
+  },
+  {
+    "ID": 4,
+    "name": "Indian Palace",
+    "lat": 49.021465,
+    "long": 12.091386,
+    "description": "Restaurant, das teilweise halale Gerichte anbietet",
+    "street": "Engelsburgergasse 1 ",
+    "PLZ": 93047,
+    "Ort": "Regensburg",
+    "Telefon": "0941/5999958",
+    "E-Mail": null
+  }
+]

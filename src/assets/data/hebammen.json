@@ -1,0 +1,61 @@
+[{
+    "ID": 1,
+    "name": "Hebamme Michaela Beck",
+    "lat": 49.007638,
+    "long": 12.113755,
+    "description": null,
+    "street": "Mackensenstraße 15a ",
+    "PLZ": 93053,
+    "Ort": "Regensburg",
+    "Telefon": "017670179076 \n",
+    "E-Mail": "beck_michaela@t-online.de "
+  },
+  {
+    "ID": 2,
+    "name": "Hebammenteam Regensburg - Wiebke Wallach & Carola Lange",
+    "lat": 49.016758,
+    "long": 12.096061,
+    "description": null,
+    "street": "Obermünsterstraße 9",
+    "PLZ": 93047,
+    "Ort": "Regensburg",
+    "Telefon": "0941/51619",
+    "E-Mail": "info@hebammenteam-regensburg.de "
+  },
+  {
+    "ID": 3,
+    "name": "Hebamme Runa Lauterbach",
+    "lat": 48.996910,
+    "long": 12.115132,
+    "description": null,
+    "street": "Dahlienweg 43",
+    "PLZ": 93053,
+    "Ort": "Regensburg",
+    "Telefon": "0941/760784",
+    "E-Mail": ""
+  },
+  {
+    "ID": 4,
+    "name": "Hebammengemeinschaft Klinik St. Hedwig - Partnerschaft",
+    "lat": 49.016415,
+    "long": 12.078233,
+    "description": null,
+    "street": "Steinmetzstraße 1",
+    "PLZ": 93049,
+    "Ort": "Regensburg",
+    "Telefon": "0941/36998",
+    "E-Mail": ""
+  },
+  {
+    "ID": 5,
+    "name": "Hebamme Andrea Mayr",
+    "lat": 49.017399,
+    "long": 12.093630,
+    "description": null,
+    "street": "Blaue-Stern-Gasse 9",
+    "PLZ": 93047,
+    "Ort": "Regensburg",
+    "Telefon": "0941/5674169",
+    "E-Mail": ""
+  }
+]

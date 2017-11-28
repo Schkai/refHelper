@@ -1,0 +1,129 @@
+{
+  "HOME": {
+    "WELCOME_IRAK": " ",
+    "WELCOME_SYRIA": " ",
+    "WELCOME_AFGHANISTAN": "خوش آمدید به ریگنسبورگ",
+    "WELCOME_ENGLISH": "Willkommen in Regensburg" ,  
+    "CHOOSE_IRAK": " ",
+    "CHOOSE_SYRIA": " ",
+    "CHOOSE_AFGHANISTAN": "لسان مورد استفادهای خود را انتخاب نمائید",
+    "CHOOSE_ENGLISH": "Wählen Sie Ihre Sprache",  
+    "TITLE": "Willkommen",  
+    "SELECT": "Sprache ändern"
+  },
+"CHOOSE": {
+    "TITLE": "خوش آمدید",
+    "QUESTION": "چی ضرورت دارید",
+    "BUY": "من میخواهم چیزی بیخرام",
+    "MEDICINE": "من به یک داکتر ضرورت دارام",
+    "TRANSPORT": " من به یک سرویس ویا ریل ویا تکسی ضرورت دارام",
+    "TITLE_ENGLISH": "Dari/Farsi",
+    "QUESTION_ENGLISH": "What do you need?", 
+    "BUY_ENGLISH": "I need to buy something",
+    "MEDICINE_ENGLISH": "I need a doctor or medicine", 
+    "TRANSPORT_ENGLISH": "I need transport"
+},
+"BUY": { 
+  "TITLE": "خریدن",
+  "QUESTION": "چی میخواهید بخرید",
+  "FOOD": "من میخواهم چیزی برای خوردن بخرام",
+  "CLOTHES": "من میخواهم لباس بخرام",
+  "ELSE": "من میخواهم چیزی دیگری بیخرام",
+  "TITLE_ENGLISH": "Buy",  
+  "QUESTION_ENGLISH": "What would you like to buy?", 
+  "FOOD_ENGLISH": "I would like to buy food", 
+  "CLOTHES_ENGLISH": "I would like to buy clothes", 
+  "ELSE_ENGLISH": "I would like to buy something else"
+},
+"FOOD": {
+  "TITLE": "مواد غذایی",
+  "HALAL": "من یک دکان میپالم که غذای حلال بفروشد",
+  "REGULAR": "من یک سوپر مارکیت میپالم",
+  "MARKET": " من یک بازار میپالم",
+  "TITLE_ENGLISH": "Food", 
+  "HALAL_ENGLISH": "I want to find a grocery store with halal food",
+  "REGULAR_ENGLISH": "I want to find a regular grocery store",
+  "MARKET_ENGLISH": "I want to find a market"
+},
+"MEDICINE": {
+  "TITLE": "تندرستی",
+  "QUESTION": "چی ضرورت دارید",
+  "DOCTOR": "من به یک داکتر ضرورت دارام",
+  "PHARMACY": "من به یک دوا خانه ضرورت دارام",
+  "HOSPITAL": " من به یک شفاخانه ضرورت دارام",
+  "TITLE_ENGLISH": "Medicine", 
+  "QUESTION_ENGLISH": "What do you need?", 
+  "DOCTOR_ENGLISH": "I need a doctor", 
+  "PHARMACY_ENGLISH": "I need a pharmacy", 
+  "HOSPITAL_ENGLISH": "I need a hospital" 
+},
+"DOCTOR": {
+  "GENERAL_DOCTOR": "من به یک داکتر عمومی ضرورت دارام",
+  "EYE_DOCTOR": "من به یک داکتر چشم ضرورت دارام",
+  "GYNECOLOGIST": "من به یک داکتر نسای ضرورت دارام",
+  "CHILDRENS_DOCTOR": "من به یک داکتر اطفال ضرورت دارام",
+  "PSYCHIATRIST": "من به یک داکتر روانشناس ضرورت دارام",
+  "DENTIST": "من به یک داکتر دندان ضرورت دارام",
+  "MIDWIFE": "من به یک قابله ضرورت دارام",
+  "GENERAL_DOCTOR_ENGLISH": "I need a general doctor", 
+  "EYE_DOCTOR_ENGLISH": "I need an eye doctor", 
+  "GYNECOLOGIST_ENGLISH": "I need a women's doctor", 
+  "CHILDRENS_DOCTOR_ENGLISH": "I need a children's doctor", 
+  "PSYCHIATRIST_ENGLISH": "I need a psychiatrist", 
+  "DENTIST_ENGLISH": "I need a dentist", 
+  "MIDWIFE_ENGLISH": "I need midwife service" 
+},
+"PHARMACY": {
+  "REGULAR_PHARMACY": "من دواخانه را میپالم",
+  "EMERGENCY_PHARMACY": "من به دوا عاجل ضرورت دارام",
+  "REGULAR_PHARMACY_ENGLISH": "I need a regular pharmacy", 
+  "EMERGENCY_PHARMACY_ENGLISH": "I need an emergency pharmacy" 
+},
+"ELSE": {
+  "TRANSPORT": "من به یک سرویس ویا ریل ویا تکسی ضرورت دارام",
+  "AUTHORITIES": " ",
+  "RECREATION": " ",
+  "LANGUAGE": "من یک کورس المانی ضرورت دارام",
+  "RELIGION": "من یک کلیسا ویا مسجد میپالم",
+  "TRANSPORT_ENGLISH": "I need transport", 
+  "AUTHORITIES_ENGLISH": "I need to go to authorities", 
+  "RECREATION_ENGLISH": "I want to do something recreational", 
+  "LANGUAGE_ENGLISH": "I need a german class", 
+  "RELIGION_ENGLISH": "I want to practice religion" 
+},
+"AUTHORITIES": {
+  "SOCIAL_SERVICES": " من یک مرجع خدمات اجتماعی میپالم",
+  "FEDERAL_OFFICE": " من باید به وزارت مهاجرین و پناهندگان",
+  "POLICE": "من یک پولیس میخواهم",
+  "FIRST_ADMITTANCE": "من به مرجع اول ثبت",
+  "SOCIAL_SERVICES_ENGLISH:": "I need social services", 
+  "FEDERAL_OFFICE_ENGLISH": "I need to go to the Federal Office for Migrants and Refugees",
+  "POLICE_ENGLISH": "I need to go to the police",
+  "FIRST_ADMITTANCE_ENGLISH": "I need to go to the first admission centre"
+
+},
+"RECREATION": {
+  "PARK": "من میخواهم از یک پارک دیدن کنم",
+  "PLAYGROUND": "کجا یک پارک بازی اطفال است",
+  "CHILDCARE_FACILITY":" ",
+  "SPORTS": " من میخواهم سپورت کنم",
+  "OFFERS_FOR_WOMEN": "من در جستجو سپورت های زنانه استم",
+  "GYM": "من استدیوی فیتنیس میپالم",
+  "PARK_ENGLISH": "I want to visit a park", 
+  "PLAYGROUND_ENGLISH": "I want to visit a playground", 
+  "CHILDCARE_FACILITY_ENGLISH": "Where are childcare facilities?", 
+  "SPORTS_ENGLISH": "I want to do sports", 
+  "OFFERS_FOR_WOMEN_ENGLISH": "Sport activities only for women", 
+  "GYM_ENGLISH": "I want to go to a gym" 
+},
+"RELIGION": {
+  "CHRISTIAN": "من یک کلیسا میپالم",
+  "MOSQUE": "من یک مسجد میپالم",
+  "SYNAGOGUE": " ",
+  "BUDDHIST_TEMPLE": "من یک معبد بودای میپالم",
+  "CHRISTIAN_ENGLISH": "I am looking for a christian church",
+  "MOSQUE_ENGLISH": "I am looking for a mosque", 
+  "SYNAGOGUE_ENGLISH": " I am looking for a synagogue", 
+  "BUDDHIST_TEMPLE_ENGLISH": " I am looking for a buddhist temple" 
+}
+}

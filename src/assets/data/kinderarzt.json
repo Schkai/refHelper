@@ -1,0 +1,61 @@
+[{
+    "ID": 1,
+    "name": "Dr. Mona Castrop",
+    "lat": 49.013373,
+    "long": 12.051991,
+    "description": null,
+    "street": "Franz-von-Taxis-Ring 53",
+    "PLZ": null,
+    "Ort": "Regensburg ",
+    "Telefon": "0941/38108838",
+    "E-Mail": null
+  },
+  {
+    "ID": 2,
+    "name": "Dr. Daniele Heuschmann ",
+    "lat": 49.012611,
+    "long": 12.102534,
+    "description": null,
+    "street": "Bahnhofsstraße 24",
+    "PLZ": 93047,
+    "Ort": "Regensburg ",
+    "Telefon": "0941/53383",
+    "E-Mail": null
+  },
+  {
+    "ID": 3,
+    "name": "Kinderärztliche Praxisgemeinschaft Dr. Gutdeutsch/Dr. Schmid",
+    "lat": 49.017521,
+    "long": 12.111168,
+    "description": null,
+    "street": "Adolf-Schmetzer-Straße 11",
+    "PLZ": 93055,
+    "Ort": "Regensburg ",
+    "Telefon": " 0941/54123 ",
+    "E-Mail": null
+  },
+  {
+    "ID": 4,
+    "name": "Kinderärztliche Praxisgemeinschaft Dr. Judex/Dr. Meinel",
+    "lat": 49.016391,
+    "long": 12.056347,
+    "description": null,
+    "street": "Dr.-Leo-Ritter-Straße 4",
+    "PLZ": 93049,
+    "Ort": "Regensburg ",
+    "Telefon": "0941/6009080 \n",
+    "E-Mail": null
+  },
+  {
+    "ID": 5,
+    "name": "Dr. Wolfgang Künzer",
+    "lat": 48.994686,
+    "long": 12.083078,
+    "description": null,
+    "street": "Karl-Stieler-Str. 50 ",
+    "PLZ": 93051,
+    "Ort": "Regensburg ",
+    "Telefon": "0941/949492",
+    "E-Mail": null
+  }
+]

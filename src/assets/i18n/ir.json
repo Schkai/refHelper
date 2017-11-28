@@ -1,0 +1,91 @@
+{
+  "HOME": {
+    "WELCOME_IRAK": " ",
+    "WELCOME_SYRIA": " ",
+    "WELCOME_AFGHANISTAN": " ",
+    "WELCOME_ENGLISH": "Welcome to Regensburg",
+    "CHOOSE_IRAK": " ",
+    "CHOOSE_SYRIA": " ",
+    "CHOOSE_AFGHANISTAN": " ",
+    "CHOOSE_ENGLISH": "CHOOSE YOUR LANGUAGE",
+    "TITLE": "Welcome!",
+    "SELECT": "Sprache ändern"
+  },
+"CHOOSE": {
+    "TITLE": "  ",
+    "QUESTION": "  ",
+    "BUY": "  ",
+    "MEDICINE": "  ",
+    "TRANSPORT": "  ",
+    "TITLE_ENGLISH": "Irak",
+    "QUESTION_ENGLISH": "What do you need?",
+    "BUY_ENGLISH": "I need to buy something",
+    "MEDICINE_ENGLISH": "I need a doctor or medicine",
+    "TRANSPORT_ENGLISH": "I need transport"
+    },
+"BUY": {
+  "TITLE": " ",
+  "QUESTION": " ",
+  "FOOD": " ",
+  "CLOTHES": " ",
+  "ELSE": " ",
+  "TITLE_ENGLISH": "Buy",
+  "QUESTION_ENGLISH": "What do you want to buy?",
+  "FOOD_ENGLISH": "I want to buy food",
+  "CLOTHES_ENGLISH": "I want to buy clothes",
+  "ELSE_ENGLISH": "I want to buy something else"
+},
+"FOOD": {
+  "TITLE": " ",
+  "HALAL": " ",
+  "REGULAR": " ",
+  "MARKET": " ",
+  "TITLE_ENGLISH": "Food",
+  "HALAL_ENGLISH": "I want to find a grocery store with halal food",
+  "REGULAR_ENGLISH": "I want to find a regular grocery store",
+  "MARKET_ENGLISH": "I want to find a market"
+}, 
+"MEDICINE": {
+  "TITLE": " ",
+  "QUESTION": " ",
+  "DOCTOR": " ",
+  "PHARMACY": " ",
+  "HOSPITAL": " ",
+  "TITLE_ENGLISH": "Medicine",
+  "QUESTION_ENGLISH": "What do you need?",
+  "DOCTOR_ENGLISH": "I need a doctor",
+  "PHARMACY_ENGLISH": "I need a pharmacy",
+  "HOSPITAL_ENGLISH": "I need a hospital"
+}, 
+"DOCTOR": {
+  "GENERAL_DOCTOR": " ",
+  "EYE_DOCTOR": " ",
+  "GYNECOLOGIST": " ",
+  "CHILDRENS_DOCTOR": " ",
+  "PSYCHIATRIST": " ",
+  "DENTIST": " ",
+  "GENERAL_DOCTOR_ENGLISH": "I need a general doctor",
+  "EYE_DOCTOR_ENGLISH": "I need an eye doctor",
+  "GYNECOLOGIST_ENGLISH": "I need a gynecologist",
+  "CHILDRENS_DOCTOR_ENGLISH": "I need a children's doctor",
+  "PSYCHIATRIST_ENGLISH": "I need a psychiatrist",
+  "DENTIST_ENGLISH": "I need a dentist"
+},
+"PHARMACY": {
+  "REGULAR_PHARMACY": " ",
+  "EMERGENCY_PHARMACY": " ",
+  "REGULAR_PHARMACY_ENGLISH": "I need a regular pharmacy",
+  "EMERGENCY_PHARMACY_ENGLISH": "I need an emergerncy pharmarcy"
+
+},
+"ELSE": {
+  "TRANSPORT": " ",
+  "AUTHORITIES": " ",
+  "RECREATION": " ",
+  "TRANSPORT_ENGLISH": "I need transport",
+  "AUTHORITIES_ENGLISH": "I need to go to authorities",
+  "RECREATION_ENGLISH": "I want to do something recreational"
+}
+
+
+}

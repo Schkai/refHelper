@@ -1,0 +1,72 @@
+[{
+    "ID": 1,
+    "name": "Alveno",
+    "lat": 49.012584,
+    "long": 12.107249,
+    "description": "Alveno Anlaufstelle Traumahilfe & Integration Regensburg e.V.",
+    "street": "Maierhoferstraße 10",
+    "PLZ": 93047,
+    "Ort": "Regensburg",
+    "Telefon": "",
+    "E-Mail": " info@alveno-regensburg.de"
+  },
+  {
+    "ID": 2,
+    "name": "CA-Frauenprojekt für psychologische Beratung",
+    "lat": null,
+    "long": null,
+    "description": "Psychoedukationsgruppe für geflüchtete Frauen von Campus Asyl",
+    "street": "Bajuwarenstraße 1a",
+    "PLZ": 93053,
+    "Ort": "Regensburg",
+    "Telefon": "0941/56803419 ",
+    "E-Mail": "info@campus-asyl.de"
+  },
+  {
+    "ID": 3,
+    "name": "Caritas-Asylsozialberatung",
+    "lat": 49.016207,
+    "long": 12.103271,
+    "description": "",
+    "street": "Von-der-Tann-Straße 9",
+    "PLZ": 93047,
+    "Ort": "Regensburg",
+    "Telefon": "0941/5021152 oder 0941/5021153\n
+    ","
+    E - Mail ":"
+    v.ermegan @caritas - regensburg.de n.krausnick @caritas - regensburg.de "}, {
+      "ID": 4,
+      "name": "Jugendmigrationsdienst Regensburg (katholisch)",
+      "lat": 49.018083,
+      "long": 12.105468,
+      "description": "Der Jugendmigrationsdienst in Regensburg-Stadt mit katholischem Träger",
+      "street": "Heiligengeistgasse 7",
+      "PLZ": 93047,
+      "Ort": "Regensburg",
+      "Telefon": "0941/5868530",
+      "E-Mail": "jmd@kjf-regensburg.de"
+    },
+    {
+      "ID": 5,
+      "name": "Jugendmigrationsdienst der JugendwerkstattRegensburg (evangelisch)",
+      "lat": 49.019599,
+      "long": 12.091973,
+      "description": "Der Jugendmigrationsdienst in Regensburg-Stadt mit evangelischem Träger",
+      "street": "Glockengasse 1 ",
+      "PLZ": 93047,
+      "Ort": "Regensburg",
+      "Telefon": "0941/585530",
+      "E-Mail": "jmd@jugendwerkstatt-regensburg.de"
+    },
+    {
+      "ID": 6,
+      "name": "Abteilung Asylsozialberatung und soziales ehrenamtliches Engagement",
+      "lat": 49.017217,
+      "long": 12.102397,
+      "description": "Asylsazialberatung der Stadt Regensburg",
+      "street": "Neues Rathaus, D.-Martin-Luther-Straße 1",
+      "PLZ": 93019,
+      "Ort": "Regensburg",
+      "Telefon": "0941/5077772",
+      "E-Mail": " amtfuerintegrationundmigration@regensburg.de"
+    }]

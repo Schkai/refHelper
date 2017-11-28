@@ -1,0 +1,43 @@
+<ion-header>
+
+  <ion-navbar class="navBarColor">
+    <ion-title>{{'MEDICINE.TITLE' | translate}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+<ion-card class="ion-card" (click)="openDoctorPage();">
+  <img src = "assets/img/ich brauche einen Arzt-01.png" class="emoji"/>
+  <ion-card-content>
+    <div class="hr"></div>
+    <ion-card-title class="card-title-main">
+      {{'MEDICINE.DOCTOR' | translate}}
+    </ion-card-title>
+    <p class="card-title-sub">{{'MEDICINE.DOCTOR_ENGLISH' | translate}}</p>
+  </ion-card-content>
+</ion-card>
+
+<ion-card class="ion-card" (click)="openPharmacyPage();">
+  <img src = "assets/img/medizinische Versorgung-01.png" class="emoji-face"/>
+  <ion-card-content>
+    <div class="hr"></div>
+    <ion-card-title class="card-title-main">
+      {{'MEDICINE.PHARMACY' | translate}}
+    </ion-card-title>
+    <p class="card-title-sub">{{'MEDICINE.PHARMACY_ENGLISH' | translate}}</p>
+  </ion-card-content>
+</ion-card>
+
+<ion-card class="ion-card" (click)="openHospitalPage();">
+  <img src = "assets/img/krankenhaus-01.png" class="emoji-face"/>
+  <ion-card-content>
+    <div class="hr"></div>
+    <ion-card-title class="card-title-main">
+      {{'MEDICINE.HOSPITAL' | translate}}
+    </ion-card-title>
+    <p class="card-title-sub">{{'MEDICINE.HOSPITAL_ENGLISH' | translate}}</p>
+  </ion-card-content>
+</ion-card>
+
+</ion-content>

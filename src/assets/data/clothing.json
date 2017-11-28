@@ -1,0 +1,73 @@
+[{
+    "ID": 1,
+    "name": "Kinder Secondhand BALU",
+    "lat": 49.017105,
+    "long": 12.094730,
+    "description": "Secondhand-Bekleidung für Kinder",
+    "street": "Obere Bachgasse 17",
+    "PLZ": 93047,
+    "Ort": "Regensburg",
+    "Telefon": "",
+    "E-Mail": ""
+  },
+  {
+    "ID": 2,
+    "name": "Sternenzauber",
+    "lat": 49.029716,
+    "long": 12.084216,
+    "description": "Secondhand-Produkte für Familien mit kleinen Kindern",
+    "street": "Alte Nürnberger Straße 84",
+    "PLZ": 93059,
+    "Ort": "Regensburg",
+    "Telefon": "0179 4711561",
+    "E-Mail": ""
+  },
+  {
+    "ID": 3,
+    "name": "Secondhand am Ostentor",
+    "lat": 49.018432,
+    "long": 12.106212,
+    "description": "Secondhand-Modegeschäft",
+    "street": "Ostengasse 30",
+    "PLZ": 93047,
+    "Ort": "Regensburg",
+    "Telefon": "0941 51141",
+    "E-Mail": ""
+  },
+  {
+    "ID": 4,
+    "name": "PEACEHAND",
+    "lat": 49.020311,
+    "long": 12.098129,
+    "description": "Geschäft für Secondhand-Kleidung",
+    "street": "Unter den Schwibbögen",
+    "PLZ": 93047,
+    "Ort": "Regensburg",
+    "Telefon": "01520 3160951",
+    "E-Mail": ""
+  },
+  {
+    "ID": 5,
+    "name": "Kleiderkammer ",
+    "lat": 49.018400,
+    "long": 12.110458,
+    "description": "Kleiderkammer des Caritasverbands für die Diözese Regensburg",
+    "street": "Bruderwöhrdstraße 3",
+    "PLZ": 93055,
+    "Ort": "Regensburg",
+    "Telefon": "0941 5021114",
+    "E-Mail": ""
+  },
+  {
+    "ID": 6,
+    "name": "Kleiderkammer Campus Asyl",
+    "lat": null,
+    "long": null,
+    "description": "Kleiderkammer Campus Asyl",
+    "street": "Bajuwarenstraße 1a",
+    "PLZ": 93053,
+    "Ort": "Regensburg",
+    "Telefon": "0941/56803419",
+    "E-Mail": "kleiderkammer-mitarbeit@campus-asyl.de"
+}
+]

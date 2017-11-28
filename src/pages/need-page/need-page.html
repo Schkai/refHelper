@@ -1,0 +1,66 @@
+
+<ion-header>
+
+  <ion-navbar class="navBarColor">
+    <ion-title>{{'CHOOSE.TITLE' | translate}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+<ion-card class="ion-card" (click)="openBuyPage();" tappable>
+  <img src = "assets/img/einkaufen-04-01.png" class="emoji"/>
+  <ion-card-content>
+    <div class="hr"></div>
+    <ion-card-title class="card-title-main">
+      {{'CHOOSE.BUY' | translate}}
+    </ion-card-title>
+    <p class="card-title-sub">{{'CHOOSE.BUY_ENGLISH' | translate}}</p>
+  </ion-card-content>
+</ion-card>
+
+<ion-card class="ion-card" (click)="openMedicinePage();" tappable>
+  <img src = "assets/img/sick-emoji.png" class="emoji-face"/>
+  <ion-card-content>
+    <div class="hr"></div>
+    <ion-card-title class="card-title-main">
+      {{'CHOOSE.MEDICINE' | translate}}
+    </ion-card-title>
+    <p class="card-title-sub">{{'CHOOSE.MEDICINE_ENGLISH' | translate}}</p>
+  </ion-card-content>
+</ion-card>
+
+<ion-card class="ion-card" (click)="openAuthoritiesPage();" tappable>
+  <p class="emoji-picture">🏢🗂</p>
+  <ion-card-content>
+    <div class="hr"></div>
+    <ion-card-title class="card-title-main">
+      {{'ELSE.AUTHORITIES' | translate}}
+    </ion-card-title>
+    <p class="card-title-sub">{{'ELSE.AUTHORITIES_ENGLISH' | translate}}</p>
+  </ion-card-content>
+</ion-card>
+
+<ion-card class="ion-card" (click)="openElsePage();" tappable>
+  <img src = "assets/img/oncoming-bus.png" class="emoji-face"/>
+  <ion-card-content>
+    <div class="hr"></div>
+    <ion-card-title class="card-title-main">
+      {{'CHOOSE.TRANSPORT' | translate}}
+    </ion-card-title>
+    <p class="card-title-sub">{{'CHOOSE.TRANSPORT_ENGLISH' | translate}}</p>
+  </ion-card-content>
+</ion-card>
+
+<ion-card class="ion-card" (click)="openRecreationPage();" tappable>
+  <img src = "assets/img/Erholung-Park-01.png" class="emoji-face"/>
+  <ion-card-content>
+    <div class="hr"></div>
+    <ion-card-title class="card-title-main">
+      {{'ELSE.RECREATION' | translate}}
+    </ion-card-title>
+    <p>{{'ELSE.RECREATION_ENGLISH' | translate}}</p>
+  </ion-card-content>
+</ion-card>
+
+</ion-content>

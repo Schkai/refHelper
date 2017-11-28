@@ -1,0 +1,73 @@
+[{
+    "ID": 1,
+    "name": "Bundesamt für Migration und Flüchtlinge",
+    "lat": 48.998466,
+    "long": 12.122180,
+    "description": "Das Bundesamt ist zentrale Migrationsbehörde mit Kompetenzen in den Bereichen Migration, Integration und Rückkehr. ",
+    "street": "Bajuwarenstraße 4",
+    "PLZ": 93053,
+    "Ort": "Regensburg",
+    "Telefon": "",
+    "E-Mail": ""
+  },
+  {
+    "ID": 2,
+    "name": "Cartias Regensburg",
+    "lat": 49.016235,
+    "long": 12.102814,
+    "description": " Wohlfahrtsverband der römisch-katholischen Kirche",
+    "street": "Von-der-Tann-Straße 7",
+    "PLZ": 93047,
+    "Ort": "Regensburg",
+    "Telefon": "0941/5021125",
+    "E-Mail": "info@caritas-regensburg.de"
+  },
+  {
+    "ID": 3,
+    "name": "Katholische Jugendfürsorge",
+    "lat": 49.017847,
+    "long": 12.113013,
+    "description": "kirchlicher Verband zur Untersützung von Jugendlichen in Problemlagen ",
+    "street": "Orleansstraße 2A\n",
+    "PLZ": 93055,
+    "Ort": "Regensburg",
+    "Telefon": "0941/79887100",
+    "E-Mail": "kjf@kjf-regensburg.de \n"
+  },
+  {
+    "ID": 4,
+    "name": "Asylberatung in der Erstaufnahme",
+    "lat": 48.998482,
+    "long": 12.124952,
+    "description": "Sprechstundenzeiten zur Flüchtlingsberatung: Montag 9-12/13:30-15, Dienstag 13:30-15, Mittwoch geschlossen/nur mit Termin, Donnerstag 9-12/13:30-15, Freitag 9-12",
+    "street": "Bajuwarenstraße 1",
+    "PLZ": 93053,
+    "Ort": "Regensburg",
+    "Telefon": "",
+    "E-Mail": ""
+  },
+  {
+    "ID": 5,
+    "name": "Jugendmigrationsdienst (katholisch)",
+    "lat": 49.018082,
+    "long": 12.105471,
+    "description": "Begleitung von jungen Menschen mit Migrationshintergrund im Alter von 12 bis 27 Jahren mittels individueller Angebote und professioneller Beratung bei ihrem schulischen, beruflichen und sozialen Integrationsprozess ",
+    "street": "Heiliggeistgasse 7",
+    "PLZ": 93047,
+    "Ort": "Regensburg",
+    "Telefon": "0941/5868530",
+    "E-Mail": "jdm@kfj-regensburg.de"
+  },
+  {
+    "ID": 6,
+    "name": "Jugendmigrationsdienst (evangelisch)",
+    "lat": 49.019601,
+    "long": 12.091973,
+    "description": "Begleitung von jungen Menschen mit Migrationshintergrund im Alter von 12 bis 27 Jahren mittels individueller Angebote und professioneller Beratung bei ihrem schulischen, beruflichen und sozialen Integrationsprozess ",
+    "street": "Glockengasse 1 ",
+    "PLZ": 93047,
+    "Ort": "Regensburg",
+    "Telefon": "0941/585530",
+    "E-Mail": "jdm@jugendwerkstatt-regensburg.de"
+  }
+]

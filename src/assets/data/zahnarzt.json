@@ -1,0 +1,61 @@
+[{
+    "ID": 1,
+    "name": "Dr. Gregor Hiehs",
+    "lat": 49.000614,
+    "long": 12.117533,
+    "description": null,
+    "street": "Schwabenstraße 6",
+    "PLZ": 93053,
+    "Ort": "Regensburg",
+    "Telefon": "0941/71536",
+    "E-Mail": null
+  },
+  {
+    "ID": 2,
+    "name": "Dr. Brigitte Jobst",
+    "lat": 48.998809,
+    "long": 12.110913,
+    "description": null,
+    "street": "Unterislinger Weg 16b",
+    "PLZ": 93053,
+    "Ort": "Regensburg",
+    "Telefon": "0941/74997",
+    "E-Mail": null
+  },
+  {
+    "ID": 3,
+    "name": "Dr. Petra Lehmann",
+    "lat": 48.993853,
+    "long": 12.109368,
+    "description": null,
+    "street": "Johann-Hösl-Straße 11",
+    "PLZ": 93053,
+    "Ort": "Regensburg",
+    "Telefon": "0941/7040940",
+    "E-Mail": null
+  },
+  {
+    "ID": 4,
+    "name": "Dr. Thomas Schröpfer ",
+    "lat": 49.003209,
+    "long": 12.108110,
+    "description": null,
+    "street": "Carl-Maria-von-Weber-Straße 2",
+    "PLZ": 93053,
+    "Ort": "Regensburg",
+    "Telefon": "0941/706867",
+    "E-Mail": null
+  },
+  {
+    "ID": 5,
+    "name": "Dr. Nadim Mendel",
+    "lat": 49.010048,
+    "long": 12.103023,
+    "description": null,
+    "street": "Furtmayrstraße 3",
+    "PLZ": 93053,
+    "Ort": "Regensburg",
+    "Telefon": "0941/7056800",
+    "E-Mail": null
+  }
+]

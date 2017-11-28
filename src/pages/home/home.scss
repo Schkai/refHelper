@@ -1,0 +1,46 @@
+page-home {
+
+    .background {
+        height: 100%;
+        width: 100%;
+        background-color: #599FE8 !important;
+    }
+
+  .home-header {
+    height: auto;
+    width: 100%;
+    background-color: #326FBA !important;
+
+    p {
+      text-align: center;
+    }
+
+    .welcome-text {
+      text-align: center;
+      color: #FFFFFF;
+      font-weight: bold;
+    }
+
+    .choose-text {
+        text-align: center !important;
+        font-size: small;
+        color: #96C6F4 !important;
+    }
+
+    .vertical-align-content > * {
+     display: flex !important;
+     align-content: center !important;
+     align-items: center !important;
+    }
+
+    p{
+       .choose-text {
+        text-align: center !important;
+        font-size: small;
+        color: #96C6F4 !important;
+      }
+    }
+
+
+  }
+}

@@ -1,0 +1,46 @@
+<ion-header>
+
+  <ion-navbar class="navBarColor">
+    <ion-title>{{'FOOD.TITLE' | translate}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+
+<ion-card class="ion-card" (click)="openGroceryStorePage();" tappable>
+  <img src = "assets/img/einkaufen-1-01.png" class="emoji-face"/>
+  <ion-card-content>
+    <div class="hr"></div>
+    <ion-card-title class="card-title-main">
+      {{'FOOD.REGULAR' | translate}}
+    </ion-card-title>
+    <p class="card-title-sub">{{'FOOD.REGULAR_ENGLISH' | translate}}</p>
+  </ion-card-content>
+</ion-card>
+
+<ion-card class="ion-card" (click)="openMarketPage();" tappable>
+  <p class="emoji-picture">🍒</p>
+  <ion-card-content>
+    <div class="hr"></div>
+    <ion-card-title class="card-title-main">
+      {{'FOOD.MARKET' | translate}}
+    </ion-card-title>
+    <p class="card-title-sub">{{'FOOD.MARKET_ENGLISH' | translate}}</p>
+  </ion-card-content>
+</ion-card>
+
+<ion-card class="ion-card" (click)="openHalalFood();" tappable>
+  <p class="emoji-picture">🍲</p>  
+  <ion-card-content>
+    <div class="hr"></div>
+    <ion-card-title class="card-title-main">
+      {{'FOOD.HALAL' | translate}}
+    </ion-card-title>
+    <p class="card-title-sub">{{'FOOD.HALAL_ENGLISH' | translate}}</p>
+  </ion-card-content>
+</ion-card>
+
+
+
+</ion-content>

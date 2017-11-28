@@ -1,0 +1,24 @@
+<ion-content text-center class="vertical-align-content">
+  <div class="background">
+    <div class="home-header">
+        <div class="welcome-statement" padding>
+          <p class="welcome-text">{{ 'HOME.WELCOME_IRAK' | translate }}!</p>
+          <p class="welcome-text">{{ 'HOME.WELCOME_AFGHANISTAN' | translate }}</p>
+       </div>
+    </div> 
+
+  <div padding>
+    <div class="choose-statement" padding>
+    <p class="choose-text" >{{ 'HOME.CHOOSE_ENGLISH' | translate }}!</p>
+    <p class="choose-text">{{ 'HOME.CHOOSE_AFGHANISTAN' | translate }}!</p>
+    <p class="choose-text">{{ 'HOME.CHOOSE_SYRIA' | translate }}!</p>
+    </div>
+
+     <button ion-button medium color="light" (click)='openSyriaPages();' >SYRIEN</button>
+     <button ion-button medium color="light" (click)='openIrakPages();' >IRAK</button>
+     <button ion-button medium color="light" (click)='openFrenchPages();' >FRENCH</button>
+     <button ion-button medium color="light" (click)='openAfghanPages();' >DARI/FARSI</button>
+     <button ion-button medium color="light" (click)='openEnglishPages();'>ENGLISH</button>
+  </div>
+  </div>
+</ion-content>

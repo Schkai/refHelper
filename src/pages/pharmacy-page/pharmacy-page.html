@@ -1,0 +1,32 @@
+<ion-header>
+
+  <ion-navbar class="navBarColor">
+    <ion-title>{{'MEDICINE.TITLE' | translate}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+<ion-card class="ion-card" (click)="openPharmacy();" tappable>
+  <img src = "assets/img/medizinische versorgung-01.png" class="emoji"/>
+  <ion-card-content>
+    <div class="hr"></div>
+    <ion-card-title class="card-title-main">
+      {{'PHARMACY.REGULAR_PHARMACY' | translate}}
+    </ion-card-title>
+    <p>{{'PHARMACY.REGULAR_PHARMACY_ENGLISH' | translate}}</p>
+  </ion-card-content>
+</ion-card>
+
+<ion-card class="ion-card" (click)="openEmergencyPharmacy();" tappable>
+  <p class="emoji-picture">❗</p>
+  <ion-card-content>
+    <div class="hr"></div>
+    <ion-card-title class="card-title-main">
+      {{'PHARMACY.EMERGENCY_PHARMACY' | translate}}
+    </ion-card-title>
+    <p>{{'PHARMACY.EMERGENCY_PHARMACY_ENGLISH' | translate}}</p>
+  </ion-card-content>
+</ion-card>
+
+</ion-content>

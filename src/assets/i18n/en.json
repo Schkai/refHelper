@@ -1,68 +1,91 @@
 {
-  "BACK_BUTTON_TEXT": "Back",
+  "HOME": {
+    "WELCOME_IRAK": "HELLO IRAK",
+    "WELCOME_SYRIA": "HELLO SYRIEN",
+    "WELCOME_AFGHANISTAN": "HELLO AFGHANISTAN",
+    "WELCOME_ENGLISH": "Welcome to Regensburg",
+    "CHOOSE_IRAK": "CHOOSE IRAK",
+    "CHOOSE_SYRIA": "CHOOSE SYRIA",
+    "CHOOSE_AFGHANISTAN": "لسان مورد استفاده‌ای خود را انتخاب نمائید",
+    "CHOOSE_ENGLISH": "CHOOSE YOUR LANGUAGE",
+    "TITLE": "Hallo!",
+    "SELECT": "Sprache ändern"
+  },
+"CHOOSE": {
+    "TITLE": "What do you need?",
+    "QUESTION": "What do you need?",
+    "BUY": "I need to buy something ",
+    "MEDICINE": "I need a doctor/medicine",
+    "TRANSPORT": "I need transport",
+    "BUY_ENGLISH":"I need to buy something",
+    "MEDICINE_ENGLISH": "I need a doctor/medicine",
+    "TRANSPORT_ENGLISH": "I need transport"
+    },
+"BUY": {
+  "TITLE": "Buy",
+  "QUESTION": "What do you want to buy?",
+  "FOOD": "I want to buy food",
+  "CLOTHES": "I want to buy clothes",
+  "ELSE": "I want to buy something else",
+  "FOOD_ENGLISH": "I want to buy food",
+  "CLOTHES_ENGLISH": "I want to buy clothes",
+  "ELSE_ENGLISH": "I want to buy something else"
+},
+"FOOD": {
+  "TITLE": "Food",
+  "HALAL": "I want to find a grocery store with halal food",
+  "REGULAR": "I want to find a regular grocery store",
+  "MARKET": "I want to find a market",
+  "COOKING_EVENT": "I want to join an intercultural cooking event",
+  "HALAL_ENGLISH": "I want to find a grocery store with halal food",
+  "REGULAR_ENGLISH": "I want to find a regular grocery store",
+  "MARKET_ENGLISH": "I want to find a market"
+}, 
+"MEDICINE": {
+  "TITLE": "Medicine",
+  "QUESTION": "What do you need?",
+  "DOCTOR": "I need a doctor",
+  "PHARMACY": "I need a pharmacy",
+  "HOSPITAL": "I need a hospital",
+  "QUESTION_ENGLISH": "What do you need?",
+  "DOCTOR_ENGLISH": "I need a doctor",
+  "PHARMACY_ENGLISH": "I need a pharmacy",
+  "HOSPITAL_ENGLISH": "I need a hospital"
+}, 
+"DOCTOR": {
+  "GENERAL_DOCTOR": "I need a general doctor",
+  "EYE_DOCTOR": "I need an eye doctor",
+  "GYNECOLOGIST": "I need a gynecologist",
+  "CHILDRENS_DOCTOR": "I need a children's doctor",
+  "PSYCHIATRIST": "I need a psychiatrist",
+  "DENTIST": "I need a dentist",
+  "MIDWIFE": "I need midwife service",
+  "GENERAL_DOCTOR_ENGLISH": "I need a general doctor",
+  "EYE_DOCTOR_ENGLISH": "I need an eye doctor",
+  "GYNECOLOGIST_ENGLISH": "I need a gynecologist",
+  "CHILDRENS_DOCTOR_ENGLISH": "I need a children's doctor",
+  "PSYCHIATRIST_ENGLISH": "I need a psychiatrist",
+  "DENTIST_ENGLISH": "I need a dentist",
+  "MIDWIFE_ENGLISH": "I need midwife service"
+},
+"PHARMACY": {
+  "REGULAR_PHARMACY": "I need a regular pharmacy",
+  "EMERGENCY_PHARMACY": "I need an emergency pharmarcy",
+  "REGULAR_PHARMACY_ENGLISH": "I need a regular pharmacy",
+  "EMERGENCY_PHARMACY_ENGLISH": "I need an emergency pharmarcy"
 
-  "NAME": "Name",
-  "EMAIL": "Email",
-  "USERNAME": "Username",
-  "PASSWORD": "Password",
-  "LOGIN": "Sign in",
-  "SIGNUP": "Sign up",
+},
+"ELSE": {
+  "TRANSPORT": "I need transport",
+  "AUTHORITIES": "I need to go to authorities",
+  "RECREATION": "I want to do something recreational",
+  "TRANSPORT_ENGLISH": "I need transport",
+  "RELIGION": "I want to practice religion", 
+  "AUTHORITIES_ENGLISH": "I need to go to authorities",
+  "RECREATION_ENGLISH": "I want to do something recreational",
+  "RELIGION_ENGLISH": "I want to practice religion" 
 
-  "TAB1_TITLE": "Items",
-  "TAB2_TITLE": "Search",
-  "TAB3_TITLE": "Settings",
+}
 
-  "MAP_TITLE": "Map",
 
-  "TUTORIAL_SKIP_BUTTON": "Skip",
-  "TUTORIAL_CONTINUE_BUTTON": "Continue",
-
-  "TUTORIAL_SLIDE1_TITLE": "Welcome to the Ionic Super Starter",
-  "TUTORIAL_SLIDE1_DESCRIPTION": "The <b>Ionic Super Starter</b> is a fully-featured Ionic starter with many pre-built pages and best practices.",
-
-  "TUTORIAL_SLIDE2_TITLE": "How to use the Super Starter",
-  "TUTORIAL_SLIDE2_DESCRIPTION": "Assemble the various page types you want and remove the ones you don't. We've provided many common mobile app page layouts, like login and signup pages, tabs, and this tutorial page.",
-
-  "TUTORIAL_SLIDE3_TITLE": "Getting Started",
-  "TUTORIAL_SLIDE3_DESCRIPTION": "Need help? Check out the Super Starter README for a full tutorial",
-
-  "TUTORIAL_SLIDE4_TITLE": "Ready to Play?",
-
-  "WELCOME_INTRO": "The starting point for your next great Ionic app",
-
-  "SETTINGS_TITLE": "Settings",
-  "SETTINGS_OPTION1": "Option 1",
-  "SETTINGS_OPTION2": "Option 2",
-  "SETTINGS_OPTION3": "Option 3",
-  "SETTINGS_OPTION4": "Option 4",
-
-  "SETTINGS_PROFILE_BUTTON": "Edit Profile",
-
-  "SETTINGS_PAGE_PROFILE": "Edit Profile",
-
-  "WELCOME_TITLE": "Welcome",
-
-  "LOGIN_TITLE": "Sign in",
-  "LOGIN_ERROR": "Unable to sign in. Please check your account information and try again.",
-  "LOGIN_BUTTON": "Sign in",
-  "SIGNUP_TITLE": "Sign up",
-  "SIGNUP_ERROR": "Unable to create account. Please check your account information and try again.",
-  "SIGNUP_BUTTON": "Sign up",
-
-  "LIST_MASTER_TITLE": "Items",
-
-  "ITEM_CREATE_TITLE": "New Item",
-  "ITEM_CREATE_CHOOSE_IMAGE": "Add Image",
-
-  "ITEM_NAME_PLACEHOLDER": "Name",
-  "ITEM_ABOUT_PLACEHOLDER": "About",
-
-  "DONE_BUTTON": "Done",
-  "CANCEL_BUTTON": "Cancel",
-  "DELETE_BUTTON": "Delete",
-
-  "CARDS_TITLE": "Social",
-
-  "SEARCH_TITLE": "Search",
-  "SEARCH_PLACEHOLDER": "Search the items list, e.g. \"Donald Duck\""
 }

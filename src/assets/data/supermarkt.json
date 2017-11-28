@@ -1,0 +1,63 @@
+[{
+    "ID": 1,
+    "name": "Norma",
+    "lat": 49.005760,
+    "long": 12.115794,
+    "description": "Öffnungszeiten: Montag bis Samstag 07:00 bis 20:00 Uhr",
+    "street": "Hornstraße 6",
+    "PLZ": 93053,
+    "Ort": "Regensburg",
+    "Telefon": "0911/23734733",
+    "E - Mail ":null,
+    "image": "assets/img/einkaufen-1-01.png" 
+  },
+    {
+      "ID": 2,
+      "name": "Edeka Center",
+      "lat": 49.004915,
+      "long": 12.115064,
+      "description": "Öffnungszeiten: Montag bis Samstag 08:00 bis 20:00 Uhr",
+      "street": "Hornstraße 6",
+      "PLZ": 93053,
+      "Ort": "Regensburg",
+      "Telefon": "0941/705530",
+      "E-Mail": null,
+      "image": "assets/img/einkaufen-1-01.png"
+    },
+    {
+      "ID": 3,
+      "name": "Netto Marken Discount",
+      "lat": 49.002466,
+      "long": 12.118626,
+      "description": "Öffnungszeiten: Montag bis Samstag 07:00 bis 20:00 Uhr",
+      "street": "Erbprinz-Franz-Joseph-Straße 21",
+      "PLZ": 93053,
+      "Ort": "Regensburg",
+      "Telefon": "0800/2000015",
+      "E-Mail": null,
+      "image": "assets/img/einkaufen-1-01.png"
+    },
+    {
+      "ID": 4,
+      "name": "REWE",
+      "lat": 49.000580,
+      "long": 12.122617,
+      "description": "Öffnungszeiten: Montag bis Samstag 07:00 bis 20:00 Uhr",
+      "street": "Von-Seeckt-Straße 11",
+      "PLZ": 93053,
+      "Ort": "Regensburg",
+      "Telefon": "0941/70813729",
+      "E-Mail": null
+    },
+    {
+      "ID": 5,
+      "name": "Kaufland",
+      "lat": 49.011277,
+      "long": 12.101074,
+      "description": "Öffnungszeiten: Montag bis Samstag 07:00 bis 20:00 Uhr",
+      "street": "Friedensstraße 23",
+      "PLZ": 93053,
+      "Ort": "Regensburg",
+      "Telefon": "09417/584380",
+      "E-Mail": null
+    }]

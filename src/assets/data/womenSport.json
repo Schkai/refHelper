@@ -1,0 +1,100 @@
+[{
+    "ID": 1,
+    "name": "FIT Frauenintegration",
+    "lat": 49.016749,
+    "long": 12.102655,
+    "description": "kostengünstige Sportangebote für Frauen mit und ohne Migrationshintergrund, bei Bedarf mit Kinderbetreuung; Kontakt: Adolfine Schade, Gesundheitsamt Regensburg",
+    "street": "D.-Martin-Luther-Straße 3",
+    "PLZ": 93047,
+    "Ort": "Regensburg",
+    "Telefon": "0941 4009752"
+  },
+  {
+    "ID": 2,
+    "name": "Familienzentrum Königswiesen e.V.",
+    "lat": 49.007240,
+    "long": 12.063479,
+    "description": "Treffpunkt für Familien mit kleinen Kindern, offenes Spielzimmer und Selbsthilfeangebote",
+    "street": "Dr.-Gessler-Straße 22",
+    "PLZ": 93051,
+    "Ort": "Regensburg",
+    "Telefon": "0941 948713"
+  },
+  {
+    "ID": 3,
+    "name": "Frauenbadezeit",
+    "lat": 49.015490,
+    "long": 12.105920,
+    "description": "Jeden Donnerstag ist das Hallenbad Regensburg von 16.30 bis 18.30 Uhr nur für Frauen geöffnet.",
+    "street": "Gabelsbergerstraße 14",
+    "PLZ": 93047,
+    "Ort": "Regensburg",
+    "Telefon": "0941 6012977"
+  },
+  {
+    "ID": 4,
+    "name": "Frauennotruf Regensburg e.V.",
+    "lat": 49.016835,
+    "long": 12.094349,
+    "description": "Beratungsstelle für Frauen und Mädchen mit (sexuellen) Gewalterfahrungen",
+    "street": "Alte Manggasse 1",
+    "PLZ": 93047,
+    "Ort": "Regensburg",
+    "Telefon": "0941 24171"
+  },
+  {
+    "ID": 5,
+    "name": "Autonomes Frauenhaus",
+    "lat": 49.023205,
+    "long": 12.078045,
+    "description": "Beratungsstelle für gewaltbetroffene Frauen; Zuflucht und Schutz misshandelte und bedrohte Frauen und Kinder ",
+    "street": "Gumpelzhaimerstraße 8a",
+    "PLZ": 93049,
+    "Ort": "Regensburg",
+    "Telefon": "0941 24000"
+  },
+  {
+    "ID": 6,
+    "name": "Frauenfitness",
+    "lat": 49.008111,
+    "long": 12.137336,
+    "description": "Fitnesskurs speziell für Frauen im Jugend- und Familienzentrum Kontrast",
+    "street": "Vilshofener Straße 14",
+    "PLZ": 93055,
+    "Ort": "Regensburg",
+    "Telefon": "0941 28095983"
+  },
+  {
+    "ID": 7,
+    "name": "Schwimmkurs für Anfängerinnen",
+    "lat": 49.015490,
+    "long": 12.105920,
+    "description": "Anfängerschwimmkurs im Hallenbad Regensburg speziell für Frauen",
+    "street": "Gabelsbergerstraße 14",
+    "PLZ": 93047,
+    "Ort": "Regensburg",
+    "Telefon": "0941 5071140"
+  },
+  {
+    "ID": 8,
+    "name": "Jugend- und Familienzentrum Kontrast",
+    "lat": null,
+    "long": null,
+    "description": "Sprachkurs für Mütter mit Kinderbetreuung",
+    "street": "Vilshofener Str. 14",
+    "PLZ": 93055,
+    "Ort": "Regensburg",
+    "Telefon": "0941 28095984"
+  },
+  {
+    "ID": 9,
+    "name": "Jugend- und Familienzentrum Kontrast",
+    "lat": null,
+    "long": null,
+    "description": "Offener internationaler Koch- und Backtreff nur für Frauen",
+    "street": "Vilshofener Straße 14",
+    "PLZ": 93055,
+    "Ort": "Regensburg",
+    "Telefon": "0941 28095984"
+  }
+]

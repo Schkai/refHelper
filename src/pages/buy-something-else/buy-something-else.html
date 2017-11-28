@@ -1,0 +1,54 @@
+<!--
+  Generated template for the BuySomethingElse page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>buy-something-else</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<ion-card *ngFor="let card of elseData" class="foodData">
+      <img data-src={{card.foto}}>
+
+    <ion-grid>
+  <ion-row>
+    <ion-col col-6>
+      <p text-left>{{card.Name}}</p>
+      <p text-left>{{card.Kurzinfo}}</p>
+      <p text-left>{{card.Strasse}}{{card.Hausnummer}}</p>
+      <p text-right class="arabic-name-bold">{{card.PLZ}}</p>
+
+
+    </ion-col>
+    <ion-col col-6>
+    <a ion-button (click)="openMaps(card.lat, card.lon)">hi</a>
+    <p text-right class="arabic-name-bold">{{card.arabic_address_line1}}</p>
+    <p text-right class="arabic-name-bold">{{card.arabic_address_line2}}</p>
+    </ion-col>
+  </ion-row>
+
+    <ion-row>
+    <ion-col col-6>
+      <p text-left>{{card.german_opening_hours}}</p>
+      <p text-left>{{card.german_time1}}</p>
+      <p text-left>{{card.german_time2}}</p>
+    </ion-col>
+    <ion-col col-6>
+      <p text-right>{{card.arabic_time1}}</p>
+      <p text-right>{{card.arabic_time2}}</p>
+    </ion-col>
+  </ion-row>
+
+
+    </ion-grid>
+  </ion-card>
+
+
+</ion-content>

@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      NEXT PAGE
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<!-- <ion-content padding> -->
+    <ion-content padding>
+  <ion-item>
+    <ion-label stacked>Text to Read</ion-label>
+    <ion-textarea rows="10" [(ngModel)]="text">hi das ist ein text</ion-textarea>
+  </ion-item>
+
+  <button color="secondary" ion-button (click)="sayText()">Read Text</button>
+
+  <ion-list>
+    <ion-item>
+      <ion-label>Destination</ion-label>
+      <ion-select [(ngModel)]="destination">
+        <ion-option value="Westminster, London, UK">Westminster, London, UK</ion-option>
+        <ion-option value="51.498739, -0.133827">51.49,-0.13 (Westminster)</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label>Start</ion-label>
+      <ion-select [(ngModel)]="start">
+        <ion-option value="">None (current location)</ion-option>
+        <ion-option value="Manchester, UK">Manchester, UK</ion-option>
+        <ion-option value="53.493002,-2.240080">53.49,-2.24 (Manchester)</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <button ion-button (click)="navigate()">Navigate</button>
+    </ion-item>
+  </ion-list>
+
+  <a ion-button href="tel:+123-456-789">Call Number 1 </a>
+  <a ion-button href="tel:+123-123-123">Call Number 2 </a>
+  <a ion-button href="tel:+234-456-345">Call Number 3 </a>
+  <a ion-button href="tel:+623-723-723">Call Number 4 </a>
+  <button ion-button (click)="call('tel:+1-1800-555-5555');">Call Function</button>
+
+  </ion-content>

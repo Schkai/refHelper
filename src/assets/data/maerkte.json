@@ -1,0 +1,61 @@
+[{
+    "ID": 1,
+    "name": "Bauern- und Wochenmarkt",
+    "lat": 49.018823,
+    "long": 12.089641,
+    "description": "Ort: Regensburg vorm Stadttheater; Öffnungszeiten: Samstag 09:00 bis 18:00 Uhr; regionale und saisonale Produkte",
+    "street": "Bismarckplatz ",
+    "PLZ": 93047,
+    "Ort": "Regensburg",
+    "Telefon": "0941/5070",
+    "E-Mail": null
+  },
+  {
+    "ID": 2,
+    "name": "Bauernmarkt",
+    "lat": 49.029856,
+    "long": 12.114901,
+    "description": "Öffnungszeiten: Donnerstag 13:00 bis 16:30 Uhr",
+    "street": "Altmühlstraße 1",
+    "PLZ": 93059,
+    "Ort": "Regensburg",
+    "Telefon": "09471/1564",
+    "E-Mail": null
+  },
+  {
+    "ID": 3,
+    "name": "Katharinenmarkt",
+    "lat": 49.025364,
+    "long": 12.097351,
+    "description": "Öffnungszeiten: Mittwoch 08:00 bis 13:00 Uhr",
+    "street": "Stadtamhof",
+    "PLZ": 93059,
+    "Ort": "Regensburg",
+    "Telefon": "0941/5070",
+    "E-Mail": null
+  },
+  {
+    "ID": 4,
+    "name": "Bauernmarkt Burgweinting",
+    "lat": 48.988768,
+    "long": 12.143949,
+    "description": "Öffnungszeiten: Mittwoch 13:30 bis 17:30 Uhr",
+    "street": "BUZ Burgweinting; Friedrich-Viehbacher-Allee 3-5",
+    "PLZ": 93055,
+    "Ort": "Regensburg",
+    "Telefon": "0941/5070",
+    "E-Mail": null
+  },
+  {
+    "ID": 5,
+    "name": "Viktualienmarkt",
+    "lat": 49.018336,
+    "long": 12.096741,
+    "description": "Öfnnungszeiten: Montag bis Samstag 09:00 bis 16:00 Uhr (Januar bis Mitte November)",
+    "street": "Neupfarrplatz",
+    "PLZ": 93047,
+    "Ort": "Regensburg",
+    "Telefon": "",
+    "E-Mail": null
+  }
+]

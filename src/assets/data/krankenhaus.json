@@ -1,0 +1,49 @@
+[{
+    "ID": 1,
+    "name": "Caritas-Krankenhaus St. Josef",
+    "lat": 49.007189,
+    "long": 12.119267,
+    "description": null,
+    "street": "Landshuter Straße 65",
+    "PLZ": 93053,
+    "Ort": "Regensburg",
+    "Telefon": "0941/7820",
+    "E-Mail": null
+  },
+  {
+    "ID": 2,
+    "name": "Universitätsklinikum Regensburg",
+    "lat": 48.988149,
+    "long": 12.089173,
+    "description": null,
+    "street": "Franz-Josef-Straß-Allee 11",
+    "PLZ": 93053,
+    "Ort": "Regensburg",
+    "Telefon": "0941/9440",
+    "E-Mail": null
+  },
+  {
+    "ID": 3,
+    "name": "Krankenhaus Barmherzige Brüder Regensburg",
+    "lat": 49.017026,
+    "long": 12.063953,
+    "description": null,
+    "street": "Prüfeninger Straße 86",
+    "PLZ": 93049,
+    "Ort": "Regensburg",
+    "Telefon": "0941/3690",
+    "E-Mail": null
+  },
+  {
+    "ID": 4,
+    "name": "Klinik St. Hedwig",
+    "lat": 49.016432,
+    "long": 12.078650,
+    "description": null,
+    "street": "Steinmetzstraße 1-3",
+    "PLZ": 93049,
+    "Ort": "Regensburg",
+    "Telefon": "0941/36998",
+    "E-Mail": null
+  }
+]

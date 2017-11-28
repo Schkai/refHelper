@@ -1,0 +1,73 @@
+[{
+    "ID": 1,
+    "name": "easyApotheke Bajuwarenstraße",
+    "lat": 49.000384,
+    "long": 12.123342,
+    "description": null,
+    "street": "Von-Seeckt-Straße 21",
+    "PLZ": 93053,
+    "Ort": "Regensburg ",
+    "Telefon": "0941/70813141",
+    "E-Mail": null
+  },
+  {
+    "ID": 2,
+    "name": "Neue-Apotheke Sankt Josef",
+    "lat": 49.005877,
+    "long": 12.119231,
+    "description": null,
+    "street": "Hildegard-von-Bingen-Straße 1",
+    "PLZ": 93053,
+    "Ort": "Regensburg ",
+    "Telefon": "0941/70813100",
+    "E-Mail": null
+  },
+  {
+    "ID": 3,
+    "name": "Neukauf Apotheke",
+    "lat": 49.005551,
+    "long": 12.115606,
+    "description": null,
+    "street": "Hornstraße 6",
+    "PLZ": 93053,
+    "Ort": "Regensburg ",
+    "Telefon": "0941/76157",
+    "E-Mail": null
+  },
+  {
+    "ID": 4,
+    "name": "Arcaden Apotheke",
+    "lat": 49.010615,
+    "long": 12.099553,
+    "description": null,
+    "street": "Friedenstraße 23",
+    "PLZ": 93053,
+    "Ort": "Regensburg ",
+    "Telefon": "0941/5862430",
+    "E-Mail": null
+  },
+  {
+    "ID": 5,
+    "name": "Königs Apotheke",
+    "lat": 49.016622,
+    "long": 12.100003,
+    "description": null,
+    "street": "Königsstraße 7",
+    "PLZ": 93047,
+    "Ort": "Regensburg ",
+    "Telefon": "0941/51571",
+    "E-Mail": null
+  },
+  {
+    "ID": 6,
+    "name": "Kepler Apotheke",
+    "lat": 49.014555,
+    "long": 12.106584,
+    "description": null,
+    "street": "Landshuter Str. 20",
+    "PLZ": 93047,
+    "Ort": "Regensburg ",
+    "Telefon": "0941/563498",
+    "E-Mail": null
+  }
+]

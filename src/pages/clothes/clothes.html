@@ -1,0 +1,50 @@
+<!--
+  Generated template for the Clothes page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="navbarColor" >
+    <ion-title>clothes</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-card *ngFor="let card of clothingData" class="foodData">
+    <ion-grid>
+  <ion-row>
+    <ion-col col-6>
+      <p text-left>{{card.name}}</p>
+      <p text-left>{{card.description}}</p>
+      <p text-left>{{card.street}}</p>
+    </ion-col>
+    <ion-col col-6>
+      <p text-right class="arabic-name-bold">{{card.PLZ}}</p>
+      <p text-right class="arabic-name-bold">{{card.arabic_address_line1}}</p>
+      <p text-right class="arabic-name-bold">{{card.arabic_address_line2}}</p>
+    </ion-col>
+  </ion-row>
+
+    <ion-row>
+    <ion-col col-6>
+      <p text-left>{{card.german_opening_hours}}</p>
+      <p text-left>{{card.german_time1}}</p>
+      <p text-left>{{card.german_time2}}</p>
+    </ion-col>
+    <ion-col col-6>
+      <p text-right>{{card.arabic_time1}}</p>
+      <p text-right>{{card.arabic_time2}}</p>
+    </ion-col>
+  </ion-row>
+
+
+    </ion-grid>
+  </ion-card>
+
+
+</ion-content>

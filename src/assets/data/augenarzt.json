@@ -1,0 +1,61 @@
+[{
+    "ID": 1,
+    "name": "Dr. Wolfgang Michtl",
+    "lat": 49.005364,
+    "long": 12.086221,
+    "description": null,
+    "street": "Kumpfmühler Straße 69",
+    "PLZ": 93051,
+    "Ort": "Regensburg",
+    "Telefon": "0941/93747",
+    "E-Mail": null
+  },
+  {
+    "ID": 2,
+    "name": "Dr. Nadim Sradj",
+    "lat": 49.017143,
+    "long": 12.075645,
+    "description": null,
+    "street": "Prüfeninger Straße 40",
+    "PLZ": 93049,
+    "Ort": "Regensburg",
+    "Telefon": "0941/21857",
+    "E-Mail": null
+  },
+  {
+    "ID": 3,
+    "name": "Dr. Sebastian Raß",
+    "lat": 49.005905,
+    "long": 12.119381,
+    "description": null,
+    "street": "Hildegard-von-Bingen-Straße 1",
+    "PLZ": 93053,
+    "Ort": "Regensburg",
+    "Telefon": "0941/793077",
+    "E-Mail": null
+  },
+  {
+    "ID": 4,
+    "name": "Dr. Christina Hertenberger-Wunschel",
+    "lat": 49.018292,
+    "long": 12.083492,
+    "description": null,
+    "street": "Prüfeninger Straße 4",
+    "PLZ": 93049,
+    "Ort": "Regensburg",
+    "Telefon": "0941/23586",
+    "E-Mail": null
+  },
+  {
+    "ID": 5,
+    "name": "Dr. Andreas Remky",
+    "lat": 49.017034,
+    "long": 12.063953,
+    "description": null,
+    "street": "Prüfeninger Straße 86",
+    "PLZ": 93049,
+    "Ort": "Regensburg",
+    "Telefon": "0941/50430",
+    "E-Mail": null
+  }
+]

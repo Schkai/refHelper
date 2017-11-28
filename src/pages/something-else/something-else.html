@@ -1,0 +1,42 @@
+<ion-header>
+
+  <ion-navbar class="navBarColor">
+    <ion-title>{{'ELSE.TRANSPORT' | translate}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+<ion-card class="ion-card" (click)="openBusPage()">
+  <p class="emoji-picture">🚌</p>
+  <ion-card-content>
+    <div class="hr"></div>
+    <ion-card-title class="card-title-main">
+      {{'ELSE.TRANSPORT' | translate}}
+    </ion-card-title>
+    <p class="card-title-sub">{{'ELSE.TRANSPORT_ENGLISH' | translate}}</p>
+  </ion-card-content>
+</ion-card>
+
+<ion-card class="ion-card" (click)="openTrainPage()">
+  <p class="emoji-picture">🚃</p>
+  <ion-card-content>
+    <div class="hr"></div>
+    <ion-card-title class="card-title-main">
+      {{'ELSE.TRANSPORT' | translate}}
+    </ion-card-title>
+    <p class="card-title-sub">{{'ELSE.TRANSPORT_ENGLISH' | translate}}</p>
+  </ion-card-content>
+</ion-card>
+
+<ion-card class="ion-card" (click)="openTaxiPage()">
+  <p class="emoji-picture">🚕</p>
+  <ion-card-content>
+    <div class="hr"></div>
+    <ion-card-title class="card-title-main">
+      {{'ELSE.TRANSPORT' | translate}}
+    </ion-card-title>
+    <p class="card-title-sub">{{'ELSE.TRANSPORT_ENGLISH' | translate}}</p>
+  </ion-card-content>
+</ion-card>
+</ion-content>

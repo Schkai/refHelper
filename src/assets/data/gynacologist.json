@@ -1,0 +1,73 @@
+[{
+    "ID": 1,
+    "name": "Dr. Monika Bals-Pratsch",
+    "lat": 49.005906,
+    "long": 12.119382,
+    "description": null,
+    "street": "Hildegard-von-Bingen-Straße 1",
+    "PLZ": 93053,
+    "Ort": "Regensburg",
+    "Telefon": "0941/89849944",
+    "E-Mail": null
+  },
+  {
+    "ID": 2,
+    "name": "Dr. Nicole Mühlbauer",
+    "lat": 49.013371,
+    "long": 12.051993,
+    "description": null,
+    "street": "Franz-von-Taxis-Ring 53",
+    "PLZ": 93049,
+    "Ort": "Regensburg",
+    "Telefon": "0941/54105",
+    "E-Mail": null
+  },
+  {
+    "ID": 3,
+    "name": "Dr. Brigitta Rückert-Völklein",
+    "lat": 48.997370,
+    "long": 12.073791,
+    "description": null,
+    "street": "Augsburger Straße 48",
+    "PLZ": 93051,
+    "Ort": "Regensburg",
+    "Telefon": "0941/990022",
+    "E-Mail": null
+  },
+  {
+    "ID": 4,
+    "name": "Dr. Angelika Eder",
+    "lat": 49.005903,
+    "long": 12.119380,
+    "description": null,
+    "street": "Hildegard-von-Bingen-Straße 1",
+    "PLZ": 93053,
+    "Ort": "Regensburg",
+    "Telefon": "0941/89849944",
+    "E-Mail": null
+  },
+  {
+    "ID": 5,
+    "name": "Dr. Christine Reißmann",
+    "lat": 49.005903,
+    "long": 12.119380,
+    "description": null,
+    "street": "Hildegard-von-Bingen-Straße 1",
+    "PLZ": 93053,
+    "Ort": "Regensburg",
+    "Telefon": "0941/89849944\n",
+    "E-Mail": null
+  },
+  {
+    "ID": 6,
+    "name": "Dr. Susanne Reu",
+    "lat": 49.016760,
+    "long": 12.096060,
+    "description": null,
+    "street": "Obermünsterstraße 9",
+    "PLZ": 93047,
+    "Ort": "Regensburg",
+    "Telefon": "0941/51619",
+    "E-Mail": null
+  }
+]
