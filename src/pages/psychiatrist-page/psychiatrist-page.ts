@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { LaunchNavigator } from '@ionic-native/launch-navigator';
+import { JSONService } from './../../providers/json-service';
 
 /**
  * Generated class for the PsychiatristPage page.
@@ -14,11 +16,35 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class PsychiatristPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  public psychiatristData: any;
+  constructor(public navCtrl: NavController, public navParams: NavParams, private JSONService:JSONService, private launchNavigator: LaunchNavigator) {
+  this.getData();
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad PsychiatristPage');
   }
+
+
+  getData(){
+    this.JSONService.getJsonData('assets/data/psychologe.json').subscribe(
+      result => {
+        console.log(result);
+        this.psychiatristData = result;
+      },
+      err =>{
+      console.error("Error : "+err);
+    },
+    () => {
+      console.log('getData completed')
+    }
+  );
+}
+
+navigate(card){
+  let location = card.street + ", " + card.PLZ;
+  console.log(location);
+  this.launchNavigator.navigate(location);
+}
 
 }

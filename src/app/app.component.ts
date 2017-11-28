@@ -1,3 +1,4 @@
+import { NeedPage } from './../pages/need-page/need-page';
 import { HomePage } from './../pages/home/home';
 import { Component, ViewChild } from '@angular/core';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -12,14 +13,14 @@ import { NeedPage } from '../pages/need-page/need-page';
   template: `<ion-menu [content]="content">
     <ion-header>
       <ion-toolbar>
-        <ion-title>Pages</ion-title>
+        <ion-title>Languages</ion-title>
       </ion-toolbar>
     </ion-header>
 
     <ion-content>
       <ion-list>
-        <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
-          {{p.title}}
+        <button menuClose ion-item *ngFor="let l of languages" (click)="changeLanguage(l)">
+          {{l.title}}
         </button>
       </ion-list>
     </ion-content>
@@ -28,21 +29,15 @@ import { NeedPage } from '../pages/need-page/need-page';
   <ion-nav #content [root]="rootPage"></ion-nav>`
 })
 export class MyApp {
-  rootPage = HomePage;
+  rootPage = NeedPage;
 
   @ViewChild(Nav) nav: Nav;
 
-  pages: any[] = [
-    { title: 'Tutorial', component: 'TutorialPage' },
-    { title: 'Welcome', component: 'WelcomePage' },
-    { title: 'Tabs', component: 'TabsPage' },
-    { title: 'Cards', component: 'CardsPage' },
-    { title: 'Content', component: 'ContentPage' },
-    { title: 'Login', component: 'LoginPage' },
-    { title: 'Signup', component: 'SignupPage' },
-    { title: 'Master Detail', component: 'ListMasterPage' },
-    { title: 'Menu', component: 'MenuPage' },
-    { title: 'Search', component: 'SearchPage' }
+  languages: any[] = [
+    { title: 'German', component: "de" },
+    { title: 'Irak', component: "ir"},
+    { title: 'French', component: "fr" },
+    { title: 'Dari/Farsi', component: "af" }
   ]
 
   constructor(private translate: TranslateService, platform: Platform, private config: Config, private statusBar: StatusBar, private splashScreen: SplashScreen) {
@@ -66,9 +61,10 @@ export class MyApp {
     }
   }
 
-  openPage(page) {
+  changeLanguage(language) {
     // Reset the content nav to have just this page
     // we wouldn't want the back button to show in this scenario
-    this.nav.setRoot(page.component);
+    console.log(language.component);
+    this.translate.use(language.component);
   }
 }

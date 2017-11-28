@@ -1,7 +1,7 @@
-import { JSONService } from './../../providers/json-service';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { LaunchNavigator } from '@ionic-native/launch-navigator';
+import { JSONService } from './../../providers/json-service';
 
 /**
  * Generated class for the GroceryStore page.

@@ -31,10 +31,8 @@
     "street": "Von-der-Tann-Straße 9",
     "PLZ": 93047,
     "Ort": "Regensburg",
-    "Telefon": "0941/5021152 oder 0941/5021153\n
-    ","
-    E - Mail ":"
-    v.ermegan @caritas - regensburg.de n.krausnick @caritas - regensburg.de "}, {
+    "Telefon": "0941/5021152 oder 0941/5021153",
+    "E - Mail ":"v.ermegan @caritas - regensburg.de n.krausnick @caritas - regensburg.de "}, {
       "ID": 4,
       "name": "Jugendmigrationsdienst Regensburg (katholisch)",
       "lat": 49.018083,
@@ -63,7 +61,7 @@
       "name": "Abteilung Asylsozialberatung und soziales ehrenamtliches Engagement",
       "lat": 49.017217,
       "long": 12.102397,
-      "description": "Asylsazialberatung der Stadt Regensburg",
+      "description": "Asylsozialberatung der Stadt Regensburg",
       "street": "Neues Rathaus, D.-Martin-Luther-Straße 1",
       "PLZ": 93019,
       "Ort": "Regensburg",
