@@ -7,9 +7,10 @@ import { TranslateService } from '@ngx-translate/core';
 import { Config, Nav, Platform } from 'ionic-angular';
 
 import { Settings } from '../providers/providers';
+import { AlertController } from 'ionic-angular/components/alert/alert-controller';
 
 @Component({
-  template: `<ion-menu [content]="content">
+  template: `<ion-menu [content]="content" [swipeEnabled]="false">
     <ion-header>
       <ion-toolbar>
         <ion-title>Languages</ion-title>
@@ -21,6 +22,7 @@ import { Settings } from '../providers/providers';
         <button menuClose ion-item *ngFor="let l of languages" (click)="changeLanguage(l)">
           {{l.title}}
         </button>
+        <button menuClose ion-item (click)="imprint()">ℹ️</button>
       </ion-list>
     </ion-content>
 
@@ -34,12 +36,13 @@ export class MyApp {
 
   languages: any[] = [
     { title: 'German', component: "de" },
+    { title: 'English', component: "en"},
     { title: 'Irak', component: "ir"},
     { title: 'French', component: "fr" },
     { title: 'Dari/Farsi', component: "af" }
   ]
 
-  constructor(private translate: TranslateService, platform: Platform, private config: Config, private statusBar: StatusBar, private splashScreen: SplashScreen) {
+  constructor(private translate: TranslateService, platform: Platform, private config: Config, private statusBar: StatusBar, private splashScreen: SplashScreen, private alertCtrl: AlertController) {
     platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.
@@ -54,6 +57,7 @@ export class MyApp {
     this.translate.setDefaultLang('en');
 
     if (this.translate.getBrowserLang() !== undefined) {
+      console.log(this.translate.getBrowserLang());
       this.translate.use(this.translate.getBrowserLang());
     } else {
       this.translate.use('en'); // Set your language here
@@ -65,5 +69,19 @@ export class MyApp {
     // we wouldn't want the back button to show in this scenario
     console.log(language.component);
     this.translate.use(language.component);
+  }
+
+  imprint(){
+    let alert = this.alertCtrl.create({
+      title: "About this app",
+      message: '<b>Translators</b>'+'<br\><br\> Abra Aminpoor (Dari/Farsi), Ronja Bischof/Katrin Wolf (Französisch), Katrin Wolf (Englisch), Aman Yemane (Tigrinya), Marrya Alhanna (Arabisch)'+'<br\><br\>'+
+               '<b>Concept</b>'+'<br\><br\> Johannes Dornisch, Andrea Rieder, Katrin Wolf'+'<br\><br\>'+
+               '<b>Developers</b>'+'<br\><br\> Sebastian Friedrich, Bernhard Loibl, Maria Hollweck, Konstantin Seitz'+'<br\><br\>'+
+               '<b>Graphics</b>'+'<br\><br\> Lissi Knipl-Zörkler, Konstantin Seitz'+'<br\><br\>'+
+               '<b>Thanks to</b>'+'<br\><br\> Björn Reschke, Angelika Frey, Sabrina Tanzer'+'<br\><br\>'+
+               '<b>Supported by</b>'+'<br\><br\> Das Medienhaus'+'<br\><br\>',
+      buttons: ["Ok"]
+    });
+    alert.present();
   }
 }

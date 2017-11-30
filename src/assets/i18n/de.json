@@ -1,21 +1,135 @@
+
 {
   "HOME": {
-    "WELCOME_IRAK": "HALLO IRAK",
-    "WELCOME_SYRIA": "HALLO SYRIEN",
-    "WELCOME_AFGHANISTAN": "HALLO AFGHANISTAN",
-    "WELCOME_ENGLISH": "Willkommen in Regensburg",
-    "CHOOSE_IRAK": "CHOOSE IRAK",
-    "CHOOSE_SYRIA": "CHOOSE SYRIA",
-    "CHOOSE_AFGHANISTAN": "CHOOSE AFGHANISTAN",
+    "WELCOME_IRAK": " ",
+    "WELCOME_SYRIA": " ",
+    "WELCOME_AFGHANISTAN": " ",
+    "WELCOME_FRENCH": "Bienvenue à Ratisbonne",
+    "WELCOME_ENGLISH": "Welcome to Regensburg",
+    "CHOOSE_IRAK": " ",
+    "CHOOSE_SYRIA": " ",
+    "CHOOSE_AFGHANISTAN": " ",
     "CHOOSE_ENGLISH": "CHOOSE YOUR LANGUAGE",
-    "TITLE": "Hallo Angular 2 mit ng2-translate!",
-    "SELECT": "Sprache ändern"
+    "TITLE": "Bienvenue",
+    "SELECT": "Sprache ändern",
+    "SELECT_FRENCH": "Choisissez votre langue"
   },
 "CHOOSE": {
-    "TITLE": "Was brauchst du?",
-    "QUESTION": "What do you need?",
-    "BUY_FOOD": "I want to buy food",
-    "BUY_MEDICINE": "I need a doctor/medicine",
-    "BUY_TRANSPORT": "I need transport"
-    }
+    "TITLE": "De quoi avez-vous besoin?",
+    "QUESTION": "De quoi avez-vous besoin?",
+    "BUY": "Je voudrais acheter quelque chose",
+    "MEDICINE": "J’ai besoin d’un médecin ou d’un médicament",
+    "TRANSPORT": "J’ai besoin d’un bus, d’un train ou d’un taxi",
+    "TITLE_ENGLISH": "What do you need?",
+    "QUESTION_ENGLISH": "What do you need?",
+    "BUY_ENGLISH": "I need to buy something",
+    "MEDICINE_ENGLISH": "I need a doctor or medicine",
+    "TRANSPORT_ENGLISH": "I need transport"
+    },
+"BUY": {
+  "TITLE": "Que voulez-vous acheter?",
+  "QUESTION": "Que voulez-vous acheter?",
+  "FOOD": "Je voudrais acheter quelque chose à manger",
+  "CLOTHES": "Je voudrais acheter des vêtements",
+  "ELSE": "Je voudrais acheter quelque chose d’autre",
+  "TITLE_ENGLISH": "Buy",
+  "QUESTION_ENGLISH": "What would you like to buy?",
+  "FOOD_ENGLISH": "I would like to buy food",
+  "CLOTHES_ENGLISH": "I would like to buy clothes",
+  "ELSE_ENGLISH": "I would like to buy something else"
+},
+"FOOD": {
+  "TITLE": " ",
+  "HALAL": "Je cherche un supermarché qui vend la nourriture halal",
+  "REGULAR": "Je cherche un supermarché",
+  "MARKET": "Je cherche un marché",
+  "TITLE_ENGLISH": "Food",
+  "HALAL_ENGLISH": "I want to find a grocery store with halal food",
+  "REGULAR_ENGLISH": "I want to find a regular grocery store",
+  "MARKET_ENGLISH": "I want to find a market"
+},
+"MEDICINE": {
+  "TITLE": "Les Médicaments",
+  "QUESTION": "De quoi avez-vous besoin?",
+  "DOCTOR": "J’ai besoin d’un docteur",
+  "PHARMACY": "J’ai besoin d’une pharmacie",
+  "HOSPITAL": "J’ai besoin d’un hôpital",
+  "TITLE_ENGLISH": "Medicine",
+  "QUESTION_ENGLISH": "What do you need?",
+  "DOCTOR_ENGLISH": "I need a doctor",
+  "PHARMACY_ENGLISH": "I need a pharmacy",
+  "HOSPITAL_ENGLISH": "I need a hospital"
+},
+"DOCTOR": {
+  "GENERAL_DOCTOR": "J’ai besoin d’un généraliste/médecin",
+  "EYE_DOCTOR": "J’ai besoin d’un oculiste",
+  "GYNECOLOGIST": "J’ai besoin d’un gynécologue",
+  "CHILDRENS_DOCTOR": "J’ai besoin d’un pédiatre",
+  "PSYCHIATRIST": "J’ai besoin d’un psychologue",
+  "DENTIST": "J’ai besoin d’un dentiste",
+  "MIDWIFE": "J’ai besoin d’une sage-femme",
+  "GENERAL_DOCTOR_ENGLISH": "I need a general doctor",
+  "EYE_DOCTOR_ENGLISH": "I need an eye doctor",
+  "GYNECOLOGIST_ENGLISH": "I need a women's doctor",
+  "CHILDRENS_DOCTOR_ENGLISH": "I need a children's doctor",
+  "PSYCHIATRIST_ENGLISH": "I need a psychiatrist",
+  "DENTIST_ENGLISH": "I need a dentist",
+  "MIDWIFE_ENGLISH": "I need midwife service"
+},
+"PHARMACY": {
+  "REGULAR_PHARMACY": "J’ai besoin d’une pharmacie",
+  "EMERGENCY_PHARMACY": "J’ai besoin d’une pharmacie de garde",
+  "REGULAR_PHARMACY_ENGLISH": "I need a regular pharmacy",
+  "EMERGENCY_PHARMACY_ENGLISH": "I need an emergency pharmacy"
+},
+"ELSE": {
+  "TRANSPORT": "J’ai besoin d’un transport",
+  "AUTHORITIES": "Je cherche les autorités publiques",
+  "RECREATION": "Je cherche des possibilités de loisirs",
+  "LANGUAGE": "Je voudrais apprendre l’allemand",
+  "RELIGION": "Je voudrais pratiquer ma religion",
+  "TRANSPORT_ENGLISH": "I need transport",
+  "AUTHORITIES_ENGLISH": "I need to go to the authorities",
+  "RECREATION_ENGLISH": "I would like to do something recreational",
+  "LANGUAGE_ENGLISH": "I need a german class",
+  "RELIGION_ENGLISH": "I want to practice religion"
+},
+"AUTHORITIES": {
+  "SOCIAL_SERVICES": "J’ai besoin des services sociaux",
+  "LAWYER": "avocat ",
+  "FEDERAL_OFFICE": "Il me faut aller à l’Office Fédéral des Migrations et des Réfugiés",
+  "POLICE": "J’ai besoin de la police",
+  "SOCIAL_SERVICES_ENGLISH": "I need social services",
+  "LAWYER_ENGLISH": "I need a lawyer",
+  "FEDERAL_OFFICE_ENGLISH": "I need to go to the Federal Office for Migrants and Refugees",
+  "POLICE_ENGLISH": "I need to go to the police",
+  "BAJUWARENKASERNE": "Je cherche la Bajuwarenkaserne",
+  "BAJUWARENKASERNE_ENGLISH": "Ich möchte zur Bajuwarenkaserne"
+},
+"RECREATION": {
+  "PARK": "Je voudrais aller dans un parc",
+  "PLAYGROUND": "Je cherche un terrain de jeux",
+  "CHILDCARE_FACILITY":"Je cherche une garde d’enfants",
+  "SPORTS": "Je voudrais faire du sport",
+  "OFFERS_FOR_WOMEN": "Je cherche des activités sportives seulement pour les femmes",
+  "GYM": "Je cherche un club de fitness",
+  "PARK_ENGLISH": "I want to visit a park",
+  "PLAYGROUND_ENGLISH": "I want to visit a playground",
+  "CHILDCARE_FACILITY_ENGLISH": "Where are childcare facilities?",
+  "SPORTS_ENGLISH": "I want to do sports",
+  "OFFERS_FOR_WOMEN_ENGLISH": "Sport activities only for women",
+  "GYM_ENGLISH": "I want to go to a gym"
+},
+"RELIGION": {
+  "CHRISTIAN": "Je cherche une église",
+  "MOSQUE": "Je cherche une mosquée",
+  "SYNAGOGUE": "Je cherche une synagogue",
+  "BUDDHIST_TEMPLE": "Je cherche un temple bouddhiste",
+  "CHRISTIAN_ENGLISH": "I am looking for a christian church",
+  "MOSQUE_ENGLISH": "I am looking for a mosque",
+  "SYNAGOGUE_ENGLISH": " I am looking for a synagogue",
+  "BUDDHIST_TEMPLE_ENGLISH": " I am looking for a buddhist temple"
 }
+}
+
+
