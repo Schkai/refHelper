@@ -1,61 +1,44 @@
-# The Ionic Super Starter 🎮
+# Refugee Helper
+This guide shows you the requirements for developing on the refugeeHelper App. The App is based on the [Ionic 2 Framework](https://ionicframework.com/docs/), so you need to have a few services on your system.
 
-<img src="https://user-images.githubusercontent.com/236501/32385619-bddac0ac-c08c-11e7-9ee4-9c892197191f.png" width="400" />
+Ionic apps are created and developed primarily through the Ionic command line utility (the This guide shows you the requirements for developing on the refugeeHelper App. The App is based on the [Ionic 2 Framework](https://ionicframework.com/docs/), so you need to have a few services on your system.“CLI”), and use Cordova to build and deploy as a native app. This means we need to install a few utilities to get developing.
 
-The Ionic Super Starter is a batteries-included starter project for Ionic apps
-complete with pre-built pages, providers, and best practices for Ionic
-development.
+## Setup
+First of all, install [Node.js 6](<https://nodejs.org/en/>) or greater. Then proceed to install Ionic CLI and Cordova for native app development.
 
-The goal of the Super Starter is to get you from zero to app store faster than
-before, with a set of opinions from the Ionic team around page layout,
-data/user management, and project structure.
+```$ npm install -g ionic cordova ```
 
-The way to use this starter is to pick and choose the various page types you
-want use, and remove the ones you don't. If you want a blank slate, this
-starter isn't for you (use the `blank` type instead).
+You maybe need to add "sudo" in front of all commands to install the utilities globally. That's it for now, your basic development setup is ready.
 
-One of the big advances in Ionic was moving from a rigid route-based navigation
-system to a flexible push/pop navigation system modeled off common native SDKs.
-We've embraced this pattern to provide a set of reusable pages that can be
-navigated to anywhere in the app. Take a look at the [Settings
-page](https://github.com/ionic-team/starters/blob/master/ionic-angular/official/super/src/pages/settings/settings.html)
-for a cool example of a page navigating to itself to provide a different UI
-without duplicating code.
+## Platform Guides
+Each platform (iOS and Android) has certain features and installation requirements before you can get developing. 
 
-## Table of Contents
+For iOS developers, look at the [Cordova iOS Platform Guide](https://cordova.apache.org/docs/en/latest/guide/platforms/ios/) and follow the instructions to install XCode, and learn how to start testing you app in the simulator or a real device.
 
-1. [Getting Started](#getting-started)
-2. [Pages](#pages)
-3. [Providers](#providers)
-4. [i18n](#i18n) (adding languages)
+For Android devs, take a look at the [Cordova Android Platform Guide]([https://cordova.apache.org/docs/en/latest/guide/platforms/android/](https://cordova.apache.org/docs/en/latest/guide/platforms/ios/) and follow the instructions to install the SDK needed.
 
-## <a name="getting-started"></a>Getting Started
+## Start developing
+After you successfully set up your development environment, it's time to load the refugeeHelper App.
 
-To test this starter out, install the latest version of the Ionic CLI and run:
+First of all, Since we are working in a project with node dependencies, install those with
+ ```$ npm install``` 
+in your working directory.
 
-```bash
-ionic start mySuperApp super
-```
+Then, satisfy your dependencies with
+```$ ionic state restore```
+
+After that, you can start a local development server using
+```$ ionic serve --lab```
+which will set up a local server with live reload and all platforms previously added.
 
 ## Pages
 
-The Super Starter comes with a variety of ready-made pages. These pages help
-you assemble common building blocks for your app so you can focus on your
-unique features and branding.
-
-The app loads with the `FirstRunPage` set to `TutorialPage` as the default. If
-the user has already gone through this page once, it will be skipped the next
-time they load the app.
-
-If the tutorial is skipped but the user hasn't logged in yet, the Welcome page
-will be displayed which is a "splash" prompting the user to log in or create an
-account.
-
-Once the user is authenticated, the app will load with the `MainPage` which is
-set to be the `TabsPage` as the default.
+The app loads with the `NeedPage` as the default. 
 
 The entry and main pages can be configured easily by updating the corresponding
-variables in
+variables in `src/app/app.component.ts`.
+
+in
 [src/pages/pages.ts](https://github.com/ionic-team/starters/blob/master/ionic-angular/official/super/src/pages/pages.ts).
 
 Please read the
@@ -65,22 +48,12 @@ each.
 
 ## Providers
 
-The Super Starter comes with some basic implementations of common providers.
+The app comes with an implementations of the translation provider. It automatically detects you device's language and sets the according i18n translation. If no corresponding file is found, the app will use the default english language.
 
-### User
-
-The `User` provider is used to authenticate users through its
-`login(accountInfo)` and `signup(accountInfo)` methods, which perform `POST`
-requests to an API endpoint that you will need to configure.
-
-### Api
-
-The `Api` provider is a simple CRUD frontend to an API. Simply put the root of
-your API url in the Api class and call get/post/put/patch/delete 
 
 ## i18n
 
-Ionic Super Starter comes with internationalization (i18n) out of the box with
+The app comes with internationalization (i18n) out of the box with
 [ngx-translate](https://github.com/ngx-translate/core). This makes it easy to
 change the text used in the app by modifying only one file. 
 
