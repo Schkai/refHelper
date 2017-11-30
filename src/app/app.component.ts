@@ -30,16 +30,18 @@ import { AlertController } from 'ionic-angular/components/alert/alert-controller
   <ion-nav #content [root]="rootPage"></ion-nav>`
 })
 export class MyApp {
+
+  //This is the app's entry point
   rootPage = NeedPage;
 
   @ViewChild(Nav) nav: Nav;
 
   languages: any[] = [
-    { title: 'German', component: "de" },
-    { title: 'English', component: "en"},
-    { title: 'Irak', component: "ir"},
-    { title: 'French', component: "fr" },
-    { title: 'Dari/Farsi', component: "af" }
+    { title: 'German 🇩🇪', component: "de" },
+    { title: 'English 🇺🇸', component: "en"},
+    { title: 'Arabic 🇮🇶', component: "ir"},
+    { title: 'French 🇫🇷', component: "fr" },
+    { title: 'Dari/Farsi 🇹🇯 🇮🇷 🇦🇫', component: "af" }
   ]
 
   constructor(private translate: TranslateService, platform: Platform, private config: Config, private statusBar: StatusBar, private splashScreen: SplashScreen, private alertCtrl: AlertController) {

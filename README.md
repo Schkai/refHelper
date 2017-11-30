@@ -38,13 +38,29 @@ The app loads with the `NeedPage` as the default.
 The entry and main pages can be configured easily by updating the corresponding
 variables in `src/app/app.component.ts`.
 
-in
-[src/pages/pages.ts](https://github.com/ionic-team/starters/blob/master/ionic-angular/official/super/src/pages/pages.ts).
+## Data
 
-Please read the
-[Pages](https://github.com/ionic-team/starters/tree/master/ionic-angular/official/super/src/pages)
-readme, and the readme for each page in the source for more documentation on
-each.
+The data is stored offline in order to provide functionality even when offline.
+
+The data is provided in a .json format located in `src/assets/data`. It can be changed according to the existing format.
+
+### Adding data entries or missing information
+
+Example: You want to add a picture to a single data entry in `clothing.json`. Just add an `image` key with the link as a value  to the existing data structure. It will be recognized by the existing card and update accordingly:
+```json
+    "ID": 2,
+    "name": "Sternenzauber",
+    "lat": 49.029716,
+    "long": 12.084216,
+    "description": "Secondhand-Produkte für Familien mit kleinen Kindern",
+    "street": "Alte Nürnberger Straße 84",
+    "PLZ": 93059,
+    "Ort": "Regensburg",
+    "Telefon": "0179 4711561",
+    "E-Mail": "",
+    "image": "https://static.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg"
+```
+
 
 ## Providers
 
@@ -63,7 +79,31 @@ To add new languages, add new files to the `src/assets/i18n` directory,
 following the pattern of LANGCODE.json where LANGCODE is the language/locale
 code (ex: en/gb/de/es/etc.).
 
+
 ### Changing the Language
 
 To change the language of the app, edit `src/app/app.component.ts` and modify
 `translate.use('en')` to use the LANGCODE from `src/assets/i18n/`
+
+### Add language to sidebar
+
+To add a language you already translated and saved correctly in the according folder, you have to modify `src/app.component.ts`.
+
+There, simply add the new language in the languages array and it will automatically be recognized and used in the sidebar: 
+```javascript
+  languages: any[] = [
+    { title: 'German 🇩🇪', component: "de" },
+    { title: 'English 🇺🇸', component: "en"},
+    { title: 'Arabic 🇮🇶', component: "ir"},
+    { title: 'French 🇫🇷', component: "fr" },
+    { title: 'Dari/Farsi 🇹🇯 🇮🇷 🇦🇫', component: "af" }
+    { title: 'new language + emoji', component: "i18n code" }
+  ]
+  ```
+
+  ## Deploying and Publishing
+
+As seen in the documentation:
+https://ionicframework.com/docs/intro/deploying/
+
+http://ionicframework.com/docs/v1/guide/publishing.html
