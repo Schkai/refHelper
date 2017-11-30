@@ -9,7 +9,7 @@
     "Ort": "Regensburg",
     "Telefon": "0911/23734733",
     "E - Mail ":null,
-    "image": "assets/img/einkaufen-1-01.png" 
+    "image": "assets/img/einkaufen-1-01.png"
   },
     {
       "ID": 2,
@@ -47,7 +47,8 @@
       "PLZ": 93053,
       "Ort": "Regensburg",
       "Telefon": "0941/70813729",
-      "E-Mail": null
+      "E-Mail": null,
+      "image":"assets/img/einkaufen-1-01.png"
     },
     {
       "ID": 5,
@@ -59,5 +60,6 @@
       "PLZ": 93053,
       "Ort": "Regensburg",
       "Telefon": "09417/584380",
-      "E-Mail": null
+      "E-Mail": null,
+      "image":"https://s3-eu-west-1.amazonaws.com/lokaler/Regensburg_Stadt/Einkaufszentren/Einkaufszentren_Arcaden.jpg"
     }]

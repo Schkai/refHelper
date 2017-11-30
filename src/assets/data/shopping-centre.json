@@ -13,7 +13,7 @@
     "Telefon": "0941/705560 ",
     "Email": "mfi.regensburg@mfi.eu",
     "Homepage": "www.regensburg-arcaden.de",
-    "foto": "https://s3-eu-west-1.amazonaws.com/lokaler/Symbolbilder/Symbolbilder_Einkaufszentren.jpg"
+    "foto": "https://s3-eu-west-1.amazonaws.com/lokaler/Regensburg_Stadt/Einkaufszentren/Einkaufszentren_Arcaden.jpg"
   },
   {
     "Nummer": 2,
@@ -30,7 +30,7 @@
     "Telefon": "0941/46080",
     "Email": "",
     "Homepage": "www.donaueinkaufszentrum.de",
-    "foto": "https://s3-eu-west-1.amazonaws.com/lokaler/Symbolbilder/Symbolbilder_Einkaufszentren.jpg"
+    "foto": "https://s3-eu-west-1.amazonaws.com/lokaler/Regensburg_Stadt/Einkaufszentren/Einkaufszentren_Donaueinkaufszentrum.jpg"
   },
   {
     "Nummer": 3,
@@ -47,7 +47,7 @@
     "Telefon": "0941/3782903",
     "Email": "info@rennplatzzentrum.de",
     "Homepage": "www.rennplatzzentrum.de",
-    "foto": "https://s3-eu-west-1.amazonaws.com/lokaler/Symbolbilder/Symbolbilder_Einkaufszentren.jpg"
+    "foto": "https://s3-eu-west-1.amazonaws.com/lokaler/Regensburg_Stadt/Einkaufszentren/Einkaufszentren_Rennplatzzentrum.jpg"
   },
   {
     "Nummer": 4,
@@ -64,6 +64,6 @@
     "Telefon": "0941/92193",
     "Email": "info@koewe.de",
     "Homepage": "www.koewe.de",
-    "foto": "https://s3-eu-west-1.amazonaws.com/lokaler/Symbolbilder/Symbolbilder_Einkaufszentren.jpg"
+    "foto": "https://s3-eu-west-1.amazonaws.com/lokaler/Regensburg_Stadt/Einkaufszentren/Einkaufszentren_KoeweCenter_2.jpg"
   }
 ]

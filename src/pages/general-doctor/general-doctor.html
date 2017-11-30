@@ -7,7 +7,7 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title><img src = "assets/img/ich brauche einen Arzt-01.png" class="emoji"/></ion-title>
+    <ion-title>👨‍⚕️👩‍⚕️</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -16,9 +16,9 @@
 <ion-content padding>
   <ion-content padding>
     <ion-card *ngFor="let card of generalDoctorData" class="foodData">
-      
+
             <img src={{card.image}}>
-    
+
             <ion-item>
                 <h2>{{card.name}}</h2>
                 <p>{{card.street}}, {{card.PLZ}}</p>
@@ -31,12 +31,12 @@
                     </button>
                     <button item-right ion-button icon-left  item-end (click)="navigate(card)">
                       <ion-icon name="navigate"></ion-icon>
-                      
+
                     </button>
                   </ion-item>
-              
+
             </ion-card-content>
-     
-     
+
+
       </ion-card>
 </ion-content>

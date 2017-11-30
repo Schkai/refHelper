@@ -8,7 +8,8 @@
     "PLZ": 93047,
     "Ort": "Regensburg",
     "Telefon": "0941/5070",
-    "E-Mail": null
+    "E-Mail": null,
+    "image": "https://s3-eu-west-1.amazonaws.com/lokaler/Regensburg_Stadt/Maerkte/Maerkte_Bismarckplatz.jpg"
   },
   {
     "ID": 2,
@@ -20,7 +21,8 @@
     "PLZ": 93059,
     "Ort": "Regensburg",
     "Telefon": "09471/1564",
-    "E-Mail": null
+    "E-Mail": null,
+    "image": "https://s3-eu-west-1.amazonaws.com/lokaler/Symbolbilder/Symbolbilder_Maerkte.jpg"
   },
   {
     "ID": 3,
@@ -32,7 +34,8 @@
     "PLZ": 93059,
     "Ort": "Regensburg",
     "Telefon": "0941/5070",
-    "E-Mail": null
+    "E-Mail": null,
+    "image":"https://s3-eu-west-1.amazonaws.com/lokaler/Symbolbilder/Symbolbilder_Maerkte.jpg"
   },
   {
     "ID": 4,
@@ -44,7 +47,8 @@
     "PLZ": 93055,
     "Ort": "Regensburg",
     "Telefon": "0941/5070",
-    "E-Mail": null
+    "E-Mail": null,
+    "image": "https://s3-eu-west-1.amazonaws.com/lokaler/Symbolbilder/Symbolbilder_Maerkte.jpg"
   },
   {
     "ID": 5,
@@ -56,6 +60,7 @@
     "PLZ": 93047,
     "Ort": "Regensburg",
     "Telefon": "",
-    "E-Mail": null
+    "E-Mail": null,
+    "image":"https://s3-eu-west-1.amazonaws.com/lokaler/Regensburg_Stadt/Maerkte/Maerkte_Neupfarrplatz.jpg"
   }
 ]
