@@ -10,7 +10,6 @@ import { TransportTrain } from '../transport-train/transport-train';
  * See http://ionicframework.com/docs/components/#navigation for more info
  * on Ionic pages and navigation.
  */
-@IonicPage()
 @Component({
   selector: 'page-transport',
   templateUrl: 'transport.html',

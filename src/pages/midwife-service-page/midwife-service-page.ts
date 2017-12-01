@@ -5,7 +5,6 @@ import { JSONService } from './../../providers/json-service';
 import { LaunchNavigator } from '@ionic-native/launch-navigator';
 
 
-@IonicPage()
 @Component({
   selector: 'page-midwife-service-page',
   templateUrl: 'midwife-service-page.html',

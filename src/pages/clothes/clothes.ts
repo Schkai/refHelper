@@ -10,7 +10,6 @@ import { LaunchNavigator } from '@ionic-native/launch-navigator';
  * See http://ionicframework.com/docs/components/#navigation for more info
  * on Ionic pages and navigation.
  */
-@IonicPage()
 @Component({
   selector: 'page-clothes',
   templateUrl: 'clothes.html',
@@ -22,7 +21,7 @@ export class Clothes {
   public clothingData: any;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, private JSONService:JSONService, private launchNavigator: LaunchNavigator) {
-   
+
     this.getData();
   }
 

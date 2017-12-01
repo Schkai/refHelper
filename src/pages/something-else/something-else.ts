@@ -6,7 +6,6 @@ import { TransportBus } from '../transport-bus/transport-bus';
 import { TransportTaxi } from '../transport-taxi/transport-taxi';
 import { TransportTrain } from '../transport-train/transport-train';
 
-@IonicPage()
 @Component({
   selector: 'page-something-else',
   templateUrl: 'something-else.html',
@@ -39,7 +38,7 @@ export class SomethingElse {
     this.url = "https://www.taxi.de/unternehmen/taxi-regensburg-eg/";
     const browser = this.inAppBrowser.create(this.url, "_self", options);
   }
-  
+
   openTrainPage() {
     const options: InAppBrowserOptions = {
       zoom: "no"

@@ -9,7 +9,6 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { GeneralDoctor } from "../general-doctor/general-doctor";
 
 
-@IonicPage()
 @Component({
   selector: 'page-doctor-page',
   templateUrl: 'doctor-page.html',

@@ -5,7 +5,6 @@ import { Clothes } from "../clothes/clothes";
 import { BuySomethingElse } from "../buy-something-else/buy-something-else";
 
 
-@IonicPage()
 @Component({
   selector: 'page-buy-page',
   templateUrl: 'buy-page.html',

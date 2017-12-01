@@ -9,7 +9,6 @@ import { Religion } from '../religion/religion';
  * See http://ionicframework.com/docs/components/#navigation for more info
  * on Ionic pages and navigation.
  */
-@IonicPage()
 @Component({
   selector: 'page-recreation',
   templateUrl: 'recreation.html',

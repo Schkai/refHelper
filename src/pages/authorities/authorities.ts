@@ -5,7 +5,6 @@ import { LaunchNavigator } from '@ionic-native/launch-navigator';
 import { CallNumber } from '@ionic-native/call-number';
 
 
-@IonicPage()
 @Component({
   selector: 'page-authorities',
   templateUrl: 'authorities.html',

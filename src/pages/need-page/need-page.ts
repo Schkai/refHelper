@@ -14,7 +14,6 @@ import { SomethingElse } from "../something-else/something-else";
  * See http://ionicframework.com/docs/components/#navigation for more info
  * on Ionic pages and navigation.
  */
-@IonicPage()
 @Component({
   selector: 'page-need-page',
   templateUrl: 'need-page.html',

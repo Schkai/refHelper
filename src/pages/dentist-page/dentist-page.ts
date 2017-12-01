@@ -4,7 +4,6 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { JSONService } from './../../providers/json-service';
 import { LaunchNavigator } from '@ionic-native/launch-navigator';
 
-@IonicPage()
 @Component({
   selector: 'page-dentist-page',
   templateUrl: 'dentist-page.html',

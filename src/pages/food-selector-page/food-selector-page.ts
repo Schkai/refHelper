@@ -10,7 +10,6 @@ import { HalalFood } from "../halal-food/halal-food";
  * See http://ionicframework.com/docs/components/#navigation for more info
  * on Ionic pages and navigation.
  */
-@IonicPage()
 @Component({
   selector: 'page-food-selector-page',
   templateUrl: 'food-selector-page.html',
@@ -35,6 +34,6 @@ export class FoodSelectorPage {
   openMarketPage(){
     this.navCtrl.push(Market);
   }
-  
+
 
 }

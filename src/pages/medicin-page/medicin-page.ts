@@ -10,7 +10,6 @@ import { Hospital } from "../hospital/hospital";
  * See http://ionicframework.com/docs/components/#navigation for more info
  * on Ionic pages and navigation.
  */
-@IonicPage()
 @Component({
   selector: 'medicin-page',
   templateUrl: 'medicin-page.html',
