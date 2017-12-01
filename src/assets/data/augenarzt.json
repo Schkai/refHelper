@@ -8,8 +8,7 @@
     "PLZ": 93051,
     "Ort": "Regensburg",
     "Telefon": "0941/93747",
-    "E-Mail": null,
-    "image": "assets/img/augenarzt-01.png"
+    "E-Mail": null
   },
   {
     "ID": 2,
@@ -21,8 +20,7 @@
     "PLZ": 93049,
     "Ort": "Regensburg",
     "Telefon": "0941/21857",
-    "E-Mail": null,
-    "image": "assets/img/augenarzt-01.png"    
+    "E-Mail": null
   },
   {
     "ID": 3,
@@ -34,8 +32,7 @@
     "PLZ": 93053,
     "Ort": "Regensburg",
     "Telefon": "0941/793077",
-    "E-Mail": null, 
-    "image": "assets/img/augenarzt-01.png"
+    "E-Mail": null
   },
   {
     "ID": 4,
@@ -47,8 +44,7 @@
     "PLZ": 93049,
     "Ort": "Regensburg",
     "Telefon": "0941/23586",
-    "E-Mail": null,
-    "image": "assets/img/augenarzt-01.png"    
+    "E-Mail": null
   },
   {
     "ID": 5,
@@ -60,7 +56,6 @@
     "PLZ": 93049,
     "Ort": "Regensburg",
     "Telefon": "0941/50430",
-    "E-Mail": null,
-    "image": "assets/img/augenarzt-01.png"    
+    "E-Mail": null
   }
 ]

@@ -15,9 +15,9 @@
 
 <ion-content padding>
   <ion-card *ngFor="let card of hospitalData" class="foodData">
-    
+
           <img src={{card.image}}>
-  
+
           <ion-item>
               <h2>{{card.name}}</h2>
               <p>{{card.street}}, {{card.PLZ}}</p>
@@ -25,17 +25,17 @@
           <ion-card-content>
               <p>{{card.description}}</p>
               <ion-item>
-                  <button *ngIf="card.Telefon" item-left ion-button icon-left  item-end (click)="navigate(card)">
+                  <button *ngIf="card.Telefon" item-left ion-button icon-left  item-end (click)="call(card)">
                       <ion-icon name="call"></ion-icon>
                   </button>
                   <button item-right ion-button icon-left  item-end (click)="navigate(card)">
                     <ion-icon name="navigate"></ion-icon>
-                    
+
                   </button>
                 </ion-item>
-            
+
           </ion-card-content>
-   
-   
+
+
     </ion-card>
 </ion-content>

@@ -7,8 +7,7 @@
   "street": "Galgenbergstraße 2a",
   "PLZ": 93053,
   "Ort": "Regensburg",
-  "Telefon": "0941/57144",
-  "image": "assets/img/ich brauche einen Arzt-01.png"
+  "Telefon": "0941/57144"
   },
   {
     "ID": 2,
@@ -19,8 +18,7 @@
     "street": "Bajuwarenstraße 2e",
     "PLZ": 93053,
     "Ort": "Regensburg",
-    "Telefon": "0941/28094355",
-    "image": "assets/img/ich brauche einen Arzt-01.png"
+    "Telefon": "0941/28094355"
   },
   {
     "ID": 3,
@@ -31,9 +29,8 @@
     "street": "Galgenbergstraße 25",
     "PLZ": 93053,
     "Ort": "Regensburg",
-    "Telefon": "0941/920600",
-    "image": "assets/img/ich brauche einen Arzt-01.png" 
-  },
+    "Telefon": "0941/920600"
+    },
   {
     "ID": 4,
     "name": "Dr. Jochen Manz",
@@ -43,8 +40,8 @@
     "street": "Adolf-Schmetzer-Straße 11-13",
     "PLZ": 93055,
     "Ort": "Regensburg",
-    "Telefon": "0941/791543",
-    "image": "assets/img/ich brauche einen Arzt-01.png"
+    "Telefon": "0941/791543"
+
   },
   {
     "ID": 5,
@@ -55,7 +52,6 @@
     "street": "Hildegard-von-Bingen-Straße 1",
     "PLZ": 93053,
     "Ort": "Regensburg",
-    "Telefon": "0941/75035",
-    "image": "assets/img/ich brauche einen Arzt-01.png"    
+    "Telefon": "0941/75035"
   }
 ]

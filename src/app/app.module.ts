@@ -55,7 +55,7 @@ import { JSONService } from "../providers/json-service";
 import { TransportTrain } from '../pages/transport-train/transport-train';
 import { LaunchNavigator } from '@ionic-native/launch-navigator';
 import { InAppBrowser } from '@ionic-native/in-app-browser';
-
+import { CallNumber } from "@ionic-native/call-number";
 
 
 
@@ -166,6 +166,7 @@ export function createTranslateLoader(http: HttpClient) {
     JSONService,
     LaunchNavigator,
     InAppBrowser,
+    CallNumber,
     // Keep this to enable Ionic's runtime error handling during development
     { provide: ErrorHandler, useClass: IonicErrorHandler }
   ]

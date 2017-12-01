@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { HALALFOOD } from '../../assets/data/halalFood';
 import { JSONService } from "../../providers/json-service";
 import { LaunchNavigator } from '@ionic-native/launch-navigator';
 
@@ -16,13 +15,12 @@ export class HalalFood {
   public foodData: any;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, private jsonService:JSONService, private launchNavigator: LaunchNavigator) {
-    
+
     this.getData();
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad HalalFood');
-    console.log(HALALFOOD);
   }
 
 getData(){
